@@ -70,7 +70,7 @@ In order to write the chatbot conversation flow, one must be able to understand 
 
 \begin{enumerate}
     \item The brand mission, goals and values
-    \item A deep understanding of the users and their needs
+    \item A deep understanding of the users and their needs %see whether the inspiration phase should be located here
     \item The role/job of the chatbot
     \item An appropriate personality model
 \end{enumerate}
@@ -79,15 +79,49 @@ These four conditions describes four questions that designers must have the answ
 
 \vspace{5mm} %5mm vertical space
 
-    \subsection{The brand mission, goals, and values}
+    \subsection{The Brand Mission, Goals, and Values}
     To design a chatbot that conforms to the brand it represents, the brand image was analysed and defined. The mission statement was identified, the company and core values was defined, and a tone-of-voice analysis was conducted.
     
+\vspace{2,5mm}
+    
         \subsubsection{Mission statement and core values}
+ 
+        The brand describes itself as having a broad social responsibility. They supply fruits and vegetables, with suppliers on all continents providing products from all over the world. Freshness is the top priority and high quality. In addition to providing fresh produce, the brand recognises having a fair and sustainable business model, which extends to proper nutrition, increased activity, and societal and environmental responsibilities. Their goal is to increase the consumption of fruit and vegetables, therefore in addition to supplying fresh produce, they take an active role in increasing knowledge and engagement regarding healthy lifestyles and positive societal development.
+ 
+\vspace{2,5mm}
+  
+        \subsubsection{Mission:}
+        Fresher and healthier 
+        Taken a society position in the  market that contributes to increased focus on healthy diets and physical activity
+        A driver and pioneer for sustainable development regarding the environment and societal responsibility within the company’s product area
+        
+\vspace{2,5mm}
+
+        \subsubsection{Values and internal conduct:}
+        
+        To create value for our consumers/customers is our driving force throughout the business. The conduct of employees are characterised by the values:
+        
+        \begin{enumerate}
+            \item Team spirit
+            \item Courage to do the right thing: openness, honesty, probity
+            \item Compassion: mutual respect, care, and tolerance
+        \end{enumerate}
+
+\vspace{2,5mm}
+
+        \subsubsection{Core Values:}
+        \begin{enumerate}
+            \item Vital
+            \item Current
+            \item Fresh
+            \item Daring
+        \end{enumerate}
     
-    
+\vspace{5mm} %5mm vertical space
+
         \subsubsection{Tone of Voice analysis}
     
-        If the chatbot are to be perceived as an extension or continuation of the brand, it must adhere to the brands tone-of-voice. Tone-of-voice is defined as a brands personality, communicated through its written communication as well as the visual communication. Norman & Nielsen defined a framework to determine tone-of-voice based on 4 dimension: funny vs. serious, formal vs. causal, respectful vs. irreverent, enthusiastic vs. matter-of-fact.
+        If the chatbot are to be perceived as an extension or continuation of the brand, it must adhere to the brands tone-of-voice. Tone-of-voice is defined as a brands personality, communicated through its written communication as well as the visual communication. Norman \& Nielsen defined a framework to determine tone-of-voice based on 4 dimension: funny vs. serious, formal vs. causal, respectful vs. irreverent, enthusiastic vs. matter-of-fact.
     
         \begin{figure}
             \centering
@@ -96,31 +130,77 @@ These four conditions describes four questions that designers must have the answ
             \label{fig:tov}
         \end{figure}
     
-        Figure \ref{fig:tov} shows how the tone-of-voice was determined by assessing the mission statement, the company's values inwards and outwards, and through a tone analysis. The tone analysis was conducted using the IBM tone analyser of the written copy found on the brands website. Their tone-of-voice as reflected in their copy is more serious than funny, but not too serious as the tone is also a nice in-between of formal and casual. Their tone is very respectful, which follows their core values of tolerance and respectfulness. Lastly they are leaning towards more enthusiastic than matter-of-fact as they carry a very positive and joyful view of the future and their path to fulfill their goals.
+        Figure \ref{fig:tov} shows how the tone-of-voice was determined by assessing the mission statement, the company's values inwards and outwards, and through a tone analysis. The tone analysis was conducted using the IBM tone analyser tool, the analyser assessed the written copy found on the brands website. Their tone-of-voice as reflected in their copy is more serious than funny, but not too serious as the tone is also a nice in-between of formal and casual. Their tone is very respectful, which follows their core values of tolerance and respectfulness. Lastly they are leaning towards more enthusiastic than matter-of-fact as they carry a very positive and joyful view of the future and their path to fulfil their goals.
 
-        In addition to the tone-of-voice analysis as proposed by Norman and Nielsen, IBM’s tone analyser tool was also applied to look more into the “mood” they come across as through their web content. The tone analyser searches through content looking for certain words, sentences and phrases that would indicate the mood of the person writing the copy. Their analysis identifies the tones or emotions/mood: anger, fear, joy, sadness, analytical, confident, and tentative. The sentences are then scored and sorted based on how strong they are. If more than one tone is identified in a sentence, then the stronger it is ranked. Four of the tones were identified consistently through the content:
+\vspace{5mm}
+
+    \subsection{The Chatbot Role}
     
-        \begin{enumerate}
-            \item Analytical
-            \item Joy
-            \item Confidence
-            \item Tentative
-        \end{enumerate}
+    The user-centred approach identified the two most important jobs the chatbot could do that both furthers the goals of the brand and add value to the users: increase the consumption of fruits and vegetables, and reduce food waste. Therefore, the job of the chatbot agent is to \textit{assist} users to help them take healthier choices for their family and \textit{motivate} them to successfully implement these changes. The chatbot is there to assist and guide the users, with the long term goal of successfully implementing a fresher and healthier lifestyle and reduce food waste. 
+    
+    To achieve this the chatbot will help parents plan their dinners for the whole week, assist with the shopping and make recommendations based on ingredients they have in house and leftovers. In addition to this the chatbot encourages parents to inform the chatbot about what they have eaten so far, what was a success and what wasn’t so that the chatbot can learn which items are not eaten, are wasted and instead offer healthy alternatives that will be eaten rather than wasted. 
+    
+    Assistants and motivators have specific traits in which they need to have in order to be successful in their role:
+    
+\vspace{2,5mm}
+    
+    \textbf{Motivator}
+    \begin{enumerate}
+        \item Give praise and encouragement
+        \item Treat clients as equals
+        \item Show trust
+        \item Communicate and set goals
+        \item Be attentive
+        \item Allow mistakes
+        \item Be pleasant 
+        \item Ask for feedback
+        \item Keep others informed
+        \item Don’t micromanage
+    \end{enumerate}
+    
+    \textbf{Assistants}
+    \begin{enumerate}
+        \item Professionalism
+        \item Collaborators
+        \item Outstanding organisational skills
+        \item Excellent communication skills
+        \item Willingness to go the extra miles
+        \item Problem-solver
+        \item Proactive
+        \item Respectful
+    \end{enumerate}
+    
+ 
+    The traits of the assistant will be reflected in the way the chatbot handles its job. Through AI and NLP capabilities, as well as connection to necessary APIs, will the chatbot be able to complete necessary tasks and incorporate “hidden/invisible” features that will help users achieve their goals. As for the motivator traits, this will be reflected in how it encourages/motivates users, the language its using, and its behaviour (prompts, affirmations, tips). Therefore the chatbot role will be reflected by its external traits (motivator) and its internal traits (assistant).
+    
+\vspace{5mm}
 
-        IBM’s Tone Analyser tool revealed that the tone represented in its online copy consists of: Joy, Analytical, and Confident. In some areas it is also identified as tentative because they are careful in making broad assumptions about its brand: ”We are probably the biggest supplier in Norway”. Rather than tentative a more befitting trait would be humble or realistic. Joy covers any copy where they talks about its achievements, goals and mission - they have a positive outlook and take pride in their achievements towards a healthier population. Analytical is identified where they use numbers and facts to describe their mission and why consumers can trust in their freshness and quality - this is their seriousness in regards to who they are and what they aim to achieve - goal driven and intellectual attitude. Confidence is shown through assertiveness and certainty - they are certain they are on the right path to achieve their goals, and they know that they can help people change. 
+    \subsection{Personality Trait Model}
+    Once the brand mission, core values, understanding of user needs, and the chatbot role have been identified, designers should find an appropriate personality trait model to help put together a dynamic personality for the chatbot. It is important that this model will be used to place the desired personality within a framework, this is to benefit the designer when designing a consistent personality. 
+    
+    It is not the goal of this thesis to assess whether the designed personality is consistent with the chosen trait model, or to assess the personality of participants. The trait model is only used to guide the design of the chatbot personality, and to help in evaluating desirable traits for the specific chatbot agent. 
+    
+    The chosen personality model to model this chatbot's personality was the five factor model. As explained in section 2.3.2, this personality trait model is widely know, and based on lexical data used by humans to describe personalities. These traits have been mapped out and organised into the five factors, and as the traits are identified by the words we use to describe them, it will be an appropriate model for a linguistic interface such as a chatbot.
+    
+\vspace{5mm}
 
+        \subsection{Prototype \& Conversational Design}
+        The chatbot prototype was built using the Chatfuel bot builder platform. The conversation design was written by mixing a user scenario technique with mind-mapping tools, such as Xmind, to map out the different chatbot skills, user intentions, and conversation flows.
+        
+\vspace{5mm}
 
-    \subsection{Implementation phase}
-        \subsection{Conversational Design}
         \subsection{Avatars}
+        The literature review investigated how humans perceive the various types of conversational agents, and found that anthropomorphism can benefit how a personality is perceived, and that a consistent personality dictates which characteristics humans assign to a chatbot in which they anthropomorphise. The literature review also discussed humanness as it related to human capabilities and physical characteristics. The review found that chatbots with a high levels of humanness increases trust and familiarity, while also providing a more natural interaction with humans. The latter is explained by that humans know how to interact with other humans, therefore will assume that a chatbot will interact like a human if looking human. 
+        
+        Because of this, the chatbot avatar will have a human appearance. This chatbot is taking on human tasks and is to be perceived as a human. However, research have found that too human might have a negative effect on human perception which is why the chatbot will be portrayed as an illustrated character rather than a realistic human. This will make clear the distinction that the chatbot is not a human, while incorporating high levels of humanness simultaneously. 
     
-    \vspace{5mm} %5mm vertical space
+\vspace{5mm} %5mm vertical space
     
-    \section{Experiment Setup}
+\section{Experiment Setup}
     
-    A scenario based test was constructed in order to test the personality of the chatbot and whether the personality affects the user experience. The users will be given a series of tasks testing the most important requirements of the system as revealed through the design process. The test will be used to assess whether the personality is perceived as consistent for all users by implementing the Agree! evaluation method in which compares the given characteristics and personality traits with the agreement of users. The the user experience will be measured by using the AttrakDiff questionnaire to assess the usability and design. 
+A scenario based test was constructed in order to test the personality of the chatbot and whether the personality affects the user experience. The users will be given a series of tasks testing the most important requirements of the system as revealed through the design process. The test will be used to assess whether the personality is perceived as consistent for all users by implementing the Agree! evaluation method in which compares the given characteristics and personality traits with the agreement of users. The the user experience will be measured by using the AttrakDiff questionnaire to assess the hedonic vs. pragmatic quality of the interface. 
     
-    \vspace{5mm} %5mm vertical space
+\vspace{5mm} %5mm vertical space
 
     \subsection{Hypotheses}
  
