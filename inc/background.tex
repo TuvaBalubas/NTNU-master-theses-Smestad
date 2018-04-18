@@ -57,7 +57,7 @@ Therefore, while anthropomorphism is encouraged in order to build an emotional r
 \vspace{5mm} %5mm vertical space
 
 \section{Personality theory}
-In order to design a chatbot personality that keeps in line with the chatbot's role and the expectations users might have, designers can consider personality types. Personality, as mentioned earlier in this chapter, is defined as the combination of your behaviour, motivations, characteristics and qualities that forms an individual's character. In short, your personality describes who you are, compared to or distinct from everyone else. While no one person are exactly the same, we can have traits and characteristics in common. Personality theory is the attempt at understanding which factors personalities consists of, and how we can organise these factors into personality types based on which factors we have or have not in common. Carl Jung (1923) coined the term psychology types in which he offered a model to categorise and determine different personality types. His types have since been used to form the bases of type theory, and today there exists several different models to determine personality types, most based on self-evaluation questionnaires. In Jung's (1923) theory, the types are based on attitude types: extroversion vs introversion, and function types: sensation vs intuition, thinking vs feeling. An individual often displays either more extroverted or introverted attitudes, while the functions describe four primary types of psychological functions describing ways in which humans perceive the world. Therefore, he proposed eight types:
+In order to design a chatbot personality that keeps in line with the chatbot's role and the expectations users might have, designers can consider personality types. Personality, as mentioned earlier in this chapter, is defined as the combination of your behaviour, motivations, characteristics and qualities that forms an individual's character. In short, your personality describes who you are, compared to or distinct from everyone else. While no one person are exactly the same, we can have traits and characteristics in common. Personality theory is the attempt at understanding which factors personalities consists of, and how we can organise these factors into personality types based on which factors we have or have not in common. Carl \cite{Jung1923} coined the term psychology types in which he offered a model to categorise and determine different personality types. His types have since been used to form the bases of type theory, and today there exists several different models to determine personality types, most based on self-evaluation questionnaires. In \cite{Jung1923} theory, the types are based on attitude types: extroversion vs introversion, and function types: sensation vs intuition, thinking vs feeling. An individual often displays either more extroverted or introverted attitudes, while the functions describe four primary types of psychological functions describing ways in which humans perceive the world. Therefore, he proposed eight types:
 
 \begin{enumerate}
     \item Extroverted or Introverted: sensation-thinking, 
@@ -66,7 +66,7 @@ In order to design a chatbot personality that keeps in line with the chatbot's r
     \item Extroverted or Introverted: intuition-feeling
 \end{enumerate}
 
-While Jung (1923) proposed the early conceptual theory, Myers and Briggs (2010 [1980]) were the first to offer a type indicator in which one could model personality based on self-assessment. The Myers-Briggs Type Indicator is based on Jung (1923), where they sorted the function types into four dichotomies resulting in sixteen types rather than Jung's eight. These sixteen types are then referred to by four letters. They added the dimension of judgement and perception which describes the individual's preference regarding the other two dimensions, whether they prefer the judging (thinking-feeling) or the perceiving function (sensing-intuition) (Myers and Myers, 2010). Other models of personality types are the Big Five (also known as five-factor model or OCEAN) and HEXACO. The Big Five model, is based on five factors (Toegel and Barsoux, 2012):
+While \cite{Jung1923} proposed the early conceptual theory, \cite[1980]{Myers2010}  were the first to offer a type indicator in which one could model personality based on self-assessment. The Myers-Briggs Type Indicator is based on \cite{Jung1923}, where they sorted the function types into four dichotomies resulting in sixteen types rather than Jung's eight. These sixteen types are then referred to by four letters. They added the dimension of judgement and perception which describes the individual's preference regarding the other two dimensions, whether they prefer the judging (thinking-feeling) or the perceiving function (sensing-intuition) \cite{Myers2010}. Other models of personality types are the Big Five (also known as five-factor model or OCEAN) and HEXACO. The Big Five model, is based on five factors \citep{toegel2012}:
 
 \begin{enumerate}
     \item Openness to experience
@@ -88,20 +88,52 @@ While HEXACO added a sixth dimension (hexaco.org):
 
 The Big Five and HEXACO are both based on lexical theories, which uses adjectives in language that describes behaviours and tendencies among individuals. 
 
-The Big Five personality framework is the most widely known and used to model personality. According to \cite{Ackerman2017} \todo{update citations} the Big Five can be applied in multiple countries and cultures, and the assessment scale has been found to be valid and reliable for measuring the five factors. Lewis Goldberg defined the five factor model in the 1960's, and the validity of his model was confirmed by Costa \& McCrae which was named the "Big Five". Each of the five factors includes many traits and characteristics that are related, and organised within each factor. The factors  includes terms on the dimensions from positive to negative, e.g. generosity and aggressiveness, are both included in the agreeableness factor. In the next subsections each factor will be explained, and a few of the traits and characteristics for each factor will be given in order to give a clear idea of what each factor includes. Every personality is the sum of the traits within the five factors, some have more traits belonging in one factor than the other.
+\vspace{5mm} %5mm vertical space
 
-\subsection{Openness to Experience}
-John \& Srivastava (1999) defined openness to experience as the complexity of an individual's mental life and experiences; a person's willingness to try new things, intellect and imagination. Lebowitz (2016) states that an indivudal that is high in openness to experience engages in creative careers, enjoys getting to know new people, the arts and learning.
+\subsection{The Big Five}
 
-\subsection{Conscientiousness}
-John \& Srivastava (1999) described conscientiousness as the tendency to control impulses
+The Big Five "provides a descriptive taxonomy that organizes the myriad natural-language and scientific trait concepts into a single classifactory framework" \citep{John1999}. The Big Five personality framework is the most widely known and used framework to model personality. According to \cite{Ackerman2017} the Big Five can be applied in multiple countries and cultures, and the assessment scale has been found to be valid and reliable for measuring the five factors. Lewis Goldberg defined the five factor model in the 1960's, and the validity of his model was confirmed by \cite{mccrae1987} which was named the "Big Five". Each of the five factors includes many traits and characteristics that are related, and organised within each factor. The factors  includes terms on the dimensions from positive to negative, e.g. generosity and aggressiveness, are both included in the agreeableness factor. In the next subsections each factor will be explained, and a few of the traits and characteristics for each factor will be given in order to give a clear idea of what each factor includes. Every personality is the sum of the traits within the five factors, some have more traits belonging in one factor than the other. \cite{John1999} found that the labels for each of the five factors are often misunderstood, as the labels themselves are not correctly describing the traits, they therefore sought to create short definition to avoid confusion and misunderstandings.
 
-\subsection{Extroversion}
-\subsection{Agreeableness}
-\subsection{Neuroticism}
+\subsubsection{Openness to Experience}
 
+\begin{quote}
+    "Openness to Experience (versus closed-mindedness) describes the breadth, depth, originality and complexity of an individual's \textit{mental and experiential life}" \citep[p.121]{John1999}.
+\end{quote}
 
-There are therefore several ways in order to model a personality type using these models. The researcher will investigate, through the Master Thesis project, that the chatbot personality type is modelled based on the personality of users as well as the personality type that best describe the role of the chatbot.
+\cite{John1999} defined openness to experience as the complexity of an individual's mental life and experiences; a person's willingness to try new things, inquiring intellect and imagination. \cite{Lebowitz2016} states that an individual that is high in openness to experience engages in creative careers, enjoys getting to know new people, the arts and learning.
+
+\subsubsection{Conscientiousness}
+\begin{quote}
+    "Conscientiousness describes \textit{socially prescribed impulse control} that facilitates task- and goal-directed behavior, such as thinking before acting, delaying gratification, following norms and rules, and planning, organizing, and prioritizing tasks" \citep[p.121]{John1999}.
+\end{quote}
+
+Conscientious individuals have the tendency to control impulses, have the will to achieve, are hard-working and rule-followers.
+
+\subsubsection{Extroversion}
+\begin{quote}
+    "Extroversion implies an \textit{energetic approach} to the social and material world and includes traits such as sociability, activity, assertiveness, and positive emotionality" \citep[p.121]{John1999}.
+
+\end{quote}
+
+The factor Extroversion includes two ends of the spectrum: Extroversion \& Introversion. Extroverted individuals draws energy from interacting with people, while introverted individuals will become tired from social interactions and draws energy from solitude.
+
+\subsubsection{Agreeableness}
+\begin{quote}
+    "Agreeableness contrasts a \textit{prosocial and communal orientation} toward others with antagonism and includes traits such as altruism, tender-mindedness, trust, and modesty" \citep[p.121]{John1999}.
+\end{quote}
+
+Agreeableness can be explained by how likely you are to be liked by people around you, or how well you get along with others. Also known as social adaptability, likeability, friendly compliance, and includes traits such as: polite, humble, trusting, modest, loyal, unselfish, amiable, and cheerful.
+
+\subsubsection{Neuroticism}
+\begin{quote}
+    "Neuroticism contrasts emotional stability and even-temperedness with \textit{negative emotionality}, such as feeling anxious, nervous, sad, and tense" \citep[p.121]{John1999}.
+\end{quote}
+
+Neuroticism is the factor where a high score indicates more negative traits, while the other factors where individuals have high scores indicate more positive traits. Neuroticism is a factor which explains how comfortable you are in your own skin or how confident you are.
+
+\vspace{2,5mm}
+
+While this has been a short and concise introduction to personality theory and the big five, it describes the most important general understanding of the framework. This understanding of the five factors, and the traits which each consists of, will be used to guide the design of the chatbot personality.
 
 \vspace{5mm} %5mm vertical space
 
@@ -111,7 +143,7 @@ There are therefore several ways in order to model a personality type using thes
 In order to understand the tools to use in order to design a personality for a chatbot, researchers and designers have offered some insights, models and techniques to base the personality on. Through chatbot forums and communities online, designers suggest basing the chatbot's personality on the users who are going to use it, the brand in which the chatbot represents, and then use techniques from character development in order to write the character. In order to design a personality that is based on the people who are going to interact with it, designers must have access to relevant user information in order to understand the user group. User-centred design methods offer several techniques for designers to build a solid understanding of their users. The most common practice is the development of user personas through user research techniques such as interviews, observation, contextual inquiries or market research \citep{Courage2015}. User personas are defined as "concrete representations of the different types of people that the system or service is being designed for" \citep[: 55]{Benyon2014}. A user persona should always be based on data collected through user research, and often there are more than one persona to represent the entirety of the user group. User personas should include aims and goals for using your system (ibid), and can be used for designers to always remember who they are designing for. The great thing about user personas is that they include, names, age, gender, background, and goals and aspirations, as well as frustrations and tensions related to existing solutions or the context in general. If designers want to design user-centred chatbot personalities, they should mirror the user personas by supporting their goals and aspirations as well as having knowledge related to their frustrations and tensions.
 
 \subsection{The Importance of Social Roles}
-Even the best persona is still a broad representation of a user group, and can often be prone to stereotypes. Therefore, as there is usually more than one particular user, the chatbot personality should be designed to not only mirror users, but to fit within its social role. As this can help maintain an appropriate dynamic, even when the user's personality is not a direct match. The social role of a chatbot is determined by its job, the task it carries out and how a person within that role is expected to behave. E.g. a customer service chatbot might bring about very specific expectations in terms of how it conducts itself and treat users. Therefore, by defining the role will provide a lot of information as well as guiding specific areas of the chatbot persona.
+Even the best persona is still a broad representation of a user group, and can often be prone to stereotypes. Therefore, as there is usually more than one particular user, the chatbot personality should be designed to not only mirror users, but to fit within its social role. As this can help maintain an appropriate dynamic, even when the user's personality is not a direct match. When humans enters a specific social role it sets expectations and goals for the interaction, as mentioned earlier in section 2.2.1, and the role and social conduct becomes more important. The social role of a chatbot is determined by its job, the task it carries out and how a person within that role is expected to behave. E.g. a customer service chatbot might bring about very specific expectations in terms of how it conducts itself and treat users. Therefore, by defining the role will provide a lot of information as well as guiding specific areas of the chatbot persona.
 
 \subsection{Brand Tone-of-Voice}
 
