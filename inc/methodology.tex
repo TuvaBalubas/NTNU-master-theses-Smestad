@@ -174,16 +174,20 @@ To meet the first component; to build a deep understanding of the users and thei
 \vspace{5mm}
 
     \subsection{The Chatbot Personality Description}
-    The final chatbot personality therefore were based on identified user needs and user personas, the brand image and tone of voice, and the identified role of the chatbot. This information was used to model the desirable traits and quirks of the chatbot personality, and the five factor model was used as reference to model the personality. The personality includes the following traits:
+    The final chatbot personality therefore were based on identified user needs and user personas, the brand image and tone of voice, and the identified role of the chatbot. This information was used to model the desirable traits and quirks of the chatbot personality, and the five factor model was used as reference to model the personality. The personality includes the traits shown in Figure \ref{fig:characteristics}. The role and character description is laid out in next two sections; both descriptions are based on the user research in regards to how the chatbot's tone and tasks are handled to support the needs and goals of both mothers and fathers.
     
-    \todo{add image of personality}
+    \begin{figure}[h]
+            \centering
+            \includegraphics[scale=0.5]{figures/Defined_characteristics_and_traits.png}
+            \caption{The defined tone-of-voice, five factor personality traits, characteristics and qualities}
+            \label{fig:characteristics}
+        \end{figure}
     
-    \item[Role description:]
-    The chatbot has been given the name Bella. She works as a dinner planner, helping parents plan meals for the whole week. Her recipes helps parents eat a healthy and balanced diet focusing on increasing the consumption of fruits and vegetables. Bella is personalised to each specific family as she knows and learns over time what they prefer to eat, what they dislike, any known allergies they might have, and who makes up the whole family. Her mission is to increase their health, while also taking an environmental and economical approach to dinner planning; keeping track of what food they have at home, base recipes on ingredients that needs to be used up and providing parents with shopping lists.
+    \subsubsection{Role description}
+    The chatbot has been given the name Bella. She works as a dinner planner, helping parents plan meals for the whole week. Her recipes helps parents eat a healthy and balanced diet focusing on increasing the consumption of fruits and vegetables. Bella is personalised to each specific family as she knows and learns over time what they prefer to eat, what they dislike, any known allergies they might have, and who makes up the whole family. Her mission is to increase their health, while also taking an environmental and economical approach to dinner planning; keeping track of what food they have at home, base recipes on ingredients that needs to be used up and providing parents with shopping lists. It is important that Bella works to motivate mothers and fathers towards their goals, and does so in a supportive fashion. Her role as assistant makes sure that she is trustworthy, reliable and efficient.
     
-    \item[Character description:]
-    Bella is the same age as her target audience, she is an assistant and motivator for both mothers and fathers. However, her personality is modelled to be that of a supportive friend for mothers, helping her with cool new tricks. As mothers are more likely to use Bella often throughout the day, to log meals and ask for help. Fathers on the other hand will most likely use Bella when they are in need of reminders, accessing shopping lists and recipes. Therefore Bella acts efficiently and to the point, while also providing a helpful and supportive tone. She is cheerful, youthful, and fun-loving, while also being reliant, consistent, efficient and trusting.
-
+    \subsubsection{Character description}
+    Bella is designed to act and look about the same age as her target audience, she is an assistant and motivator for both mothers and fathers. However, her personality is modelled to be that of a supportive friend for mothers, helping her with cool new tricks and emotional support, by using a cheerful and playful tone. This is because mothers are more likely to use Bella often throughout the day, to log meals, ask for help and tricks. Fathers on the other hand will most likely use Bella mainly when they are in need of reminders, accessing shopping lists and recipes. Therefore Bella acts efficiently and to the point, while also providing a helpful and supportive tone. She is cheerful, youthful, and fun-loving, while also being reliant, consistent, efficient and trusting. Bella is a team player, and works to support great collaboration between the mother and father. 
 
 \vspace{5mm}
 
@@ -195,7 +199,30 @@ To meet the first component; to build a deep understanding of the users and thei
     \subsection{Avatars}
     The literature review investigated how humans perceive the various types of conversational agents, and found that anthropomorphism can benefit how a personality is perceived, and that a consistent personality dictates which characteristics humans assign to a chatbot in which they anthropomorphise. The literature review also discussed humanness as it related to human capabilities and physical characteristics. The review found that chatbots with a high levels of humanness increases trust and familiarity, while also providing a more natural interaction with humans. The latter is explained by that humans know how to interact with other humans, therefore will assume that a chatbot will interact like a human if looking human. 
         
-    Because of this, the chatbot avatar will have a human appearance. This chatbot is taking on human tasks and is to be perceived as a human. However, research have found that too human might have a negative effect on human perception which is why the chatbot will be portrayed as an illustrated character rather than a realistic human. This will make clear the distinction that the chatbot is not a human, while incorporating high levels of humanness simultaneously. 
+    Because of this, the chatbot avatar will have a human appearance. This chatbot is taking on human tasks and is to be perceived as a human. However, research have found that too human might have a negative effect on human perception which is why the chatbot will be portrayed as an illustrated character rather than a realistic human. This will make clear the distinction that the chatbot is not a human, while incorporating high levels of humanness simultaneously.
+    
+\vspace{5mm}
+
+    \subsection{Chatbot B - the other chatbot}
+    As there is no baseline data available to compare the personality effect against, another chatbot version was also created in order to assess and compare the user experience of each chatbot version. While the chatbot described above (chatbot A) has been given a human personality based on the brand and users, chatbot B has been designed to appear less human. Chatbot B cannot be defined as having "no personality", as even a "machine-like" behaviour can be defined as a personality type. Instead Chatbot B has been designed to be mainly task-oriented, providing the same service and completing the same task as chatbot A, but in a machine-like way as shown in table \ref{table:1}.
+    
+    \begin{table}[h]
+    \begin{tabular}{ |p{3cm}||p{5cm}||p{5cm}|  }
+     \hline
+     \multicolumn{3}{|c|}{Chatbot A vs. Chatbot B} \\
+     \hline
+        User Expressions& Chatbot A& Chatbot B \\
+     \hline
+        What should I cook for dinner tonight? &    Cool cool;) What are you in the mood for?   & Do you have a preference? \\
+     \hline   
+        Something that's quick to make &   In a hurry today huh? Here is a selection of 3 meals that takes less than 30 minutes to make! I got you ;)  & Quick recipes: \\
+     \hline
+        Dinner tonight was delicious! & That's wonderful :D should I recommend this recipe again?  & OK, recommend recipe in future? \\
+     \hline
+    \end{tabular}
+    \caption{Difference in personality in responses between chatbot A and chatbot B}
+    \label{table:1}
+    \end{table}
 
 \vspace{5mm} %5mm vertical space
     
@@ -265,14 +292,14 @@ Participants will evaluate the two chatbots by conducting a scenario and task ba
             \centering
             \includegraphics[scale=0.5]{figures/dinnerveg.png}
             \caption{Figure showing the cards for dinners and vegetables}
-            \label{fig:userneed}
+            \label{fig:dinnerveg}
         \end{figure}
         
      \begin{figure}[h]
             \centering
             \includegraphics[scale=0.5]{figures/Ingredientfruit.png}
             \caption{Figure showing the cards for ingredients and fruits}
-            \label{fig:userneed}
+            \label{fig:ingfruit}
         \end{figure}
 
    The decks were necessary to exclude any interference from the researcher, and also ensured that participants were engaged in conversations flows that the chatbot had been trained to know well. This allowed the researcher to focus on only eight specific conversations to allow participants to interact with the system. The preliminary study conducted as preparation for this master project found that users need a goal with the interaction and expect a chatbot to be able to do something, or perform some kind of service, to perceive the interaction as meaningful. Participants were unable to give a true evaluation of their perception in the preliminary study if they did not "see the point" with the interaction, although the questions were to assess the personality. Therefore, participants will use the chatbot as intended, although the research aim is not to assess how well the chatbot performs its tasks, or whether users find the specific features as more or less valuable to them.
