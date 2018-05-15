@@ -61,13 +61,27 @@ ATT_B & 16 & 3,9 & 6,3 & 5,339 & 0,7805 \\
  \label{table:6}
     \end{table}
 
-A two-way repeated measures ANOVA was conducted to investigate the effect of the starting condition (startbot) had on the independent variable personality and the dependent variable user experience. Personality has two levels (personality, no personality) and user experience has four factors (pragmatic, hedonic stimulation, hedonic identity, attractiveness). The between-subjects factor (startbot), tested for any interaction effect dependent on which chatbot participants started with (chatbot A or Chatbot B).  
+A two-way repeated measures ANOVA was conducted to investigate the effect of the starting condition (startbot) had on the independent variable personality and the dependent variable user experience. Personality has two levels (personality, no personality) and user experience has four factors (pragmatic, hedonic stimulation, hedonic identity, attractiveness). The between-subjects factor (startbot), tested for any interaction effect dependent on which chatbot participants started with (chatbot A or Chatbot B).
 
 There was a significant main effect of the two levels of personality with respect to the user experience F(1,14)=15,300, p=,002), and the between subject factor (startbot) had no significant interaction effect on personality p=,847. There was a significant main effect of the user experience F(3,42)=12,264, p<,001, and the start condition (startbot) had no significant interaction effect on user experience p=,865. There was no significant interaction effect between personality, user experience and start condition (personality*UXscore*startbot) p=,909.
 
-The paired samples t-test found that there is a significant difference in the scores between Chatbot B and Chatbot A, where all four factors of the user experience showed a significant improved effect between Chatbot B and A. Pragmatic Quality Chatbot B (M=5,4732, SD=,59649) and Chatbot A (M=5,9286, SD=56424); t(15)=-2,152, p = ,048. Hedonic-I Quality Chatbot B (M=4,7679, SD=,56874) and Chatbot A (M=5,4821, SD=,53165) t(15)=-3,239, p = ,006. Hedonic-S Quality Chatbot B (M=4,7768, SD=1,19405) and Chatbot A (M=5,6250 SD=,29909) t(15)=-2,934, p = ,010. Attractiveness Chatbot B (M=5,339, SD=,7805) and Chatbot A (M=6,3482, SD=,44864) t(15)=-4,069, p = ,001. These results suggests that personality has an improved effect on the user experience of chatbots, as all four factors of user experience was scored higher for chatbot A than chatbot B.
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.4]{figures/MMeanStartbotA.png}
+    \caption{Estimated marginal means starting condition chatbot A}
+    \label{fig:startA}
+\end{figure}
 
-As shown in Figure \ref{fig:portres}, Chatbot A performed better in both hedonic and pragmatic quality than Chatbot B. The rectangles shows the confidence observed for Chatbot A and B, where Chatbot A has a smaller confidence rectangle implying that the participants were largely at one. Chatbot B however has a much larger confidence rectangle, which suggests that participant responses differed more greatly. 
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.4]{figures/MMeanStartbotB.png}
+    \caption{Estimated marginal means starting condition chatbot B}
+    \label{fig:startB}
+\end{figure}
+
+Another two-way repeated measures ANOVA was conducted to investigate whether gender had any significant interaction effect on the variables. The analysis found that there was no significant interaction effect between personality, user experience and gender (personality*UXscore*gender) p=,436.
+
+The paired samples t-test found that there is a significant difference in the scores between Chatbot B and Chatbot A, where all four factors of the user experience showed a significant improved effect between Chatbot B and A. Pragmatic Quality Chatbot B (M=5,4732, SD=,59649) and Chatbot A (M=5,9286, SD=56424); t(15)=-2,152, p = ,048. Hedonic-I Quality Chatbot B (M=4,7679, SD=,56874) and Chatbot A (M=5,4821, SD=,53165) t(15)=-3,239, p = ,006. Hedonic-S Quality Chatbot B (M=4,7768, SD=1,19405) and Chatbot A (M=5,6250 SD=,29909) t(15)=-2,934, p = ,010. Attractiveness Chatbot B (M=5,339, SD=,7805) and Chatbot A (M=6,3482, SD=,44864) t(15)=-4,069, p = ,001. These results suggests that personality has an improved effect on the user experience of chatbots, as all four factors of user experience was scored higher for chatbot A than chatbot B.
 
 \begin{figure}[h]
     \centering
@@ -76,7 +90,7 @@ As shown in Figure \ref{fig:portres}, Chatbot A performed better in both hedonic
     \label{fig:portres}
 \end{figure}
         
-Figure \ref{fig:diagval} shoes the means score of each user experience factor and how the two personalities scored compared to each other. The diagram shows that the difference is greater when it comes to hedonic quality-simulation and attractiveness, while the differences are less when it comes to pragmatic quality in particular. As the two personalities only shared traits found in the conscientiousness personality factor (reliable, consistent, perceptive) this result is to be expected as those traits are often found to be pragmatic qualities.
+As shown in Figure \ref{fig:portres}, Chatbot A performed better in both hedonic and pragmatic quality than Chatbot B. The rectangles shows the confidence observed for Chatbot A and B, where Chatbot A has a smaller confidence rectangle implying that the participants were largely at one. Chatbot B however has a much larger confidence rectangle, which suggests that participant responses differed more greatly. Figure \ref{fig:diagval} shoes the means score of each user experience factor and how the two personalities scored compared to each other. The diagram shows that the difference is greater when it comes to hedonic quality-simulation and attractiveness, while the differences are less when it comes to pragmatic quality in particular. As the two personalities only shared traits found in the conscientiousness personality factor (reliable, consistent, perceptive) this result is to be expected as those traits are often found to be pragmatic qualities. Figure \ref{fig:wordpairs} shows the average score for each of the word-pairs for both chatbot versions. This line graph shows clearly where the differences are largest, such as human-technical, and that the for the majority of word-pairs Chatbot A scores higher. The exceptions includes mainly word-pairs in the pragmatic quality: cumbersome-straightforward, unpredictable-predictable, unprofessional-professional. This suggests that a technical, impersonal or machine-like personality are seen as more professional and straightforward than a more human-like personality.
 
 \begin{figure}[h]
     \centering
@@ -84,8 +98,6 @@ Figure \ref{fig:diagval} shoes the means score of each user experience factor an
     \caption{Diagram of average values}
     \label{fig:diagval}
 \end{figure}
-        
-Figure \ref{fig:wordpairs} shows the average score for each of the word-pairs for both chatbot versions. This line graph shows clearly where the differences are largest, such as human-technical, and that the for the majority of word-pairs Chatbot A scores higher. The exceptions includes mainly word-pairs in the pragmatic quality: cumbersome-straightforward, unpredictable-predictable, unprofessional-professional. This suggests that a technical, impersonal or machine-like personality are seen as more professional and straightforward than a more human-like personality.
 
 \begin{figure}[h]
     \centering
