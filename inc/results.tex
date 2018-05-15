@@ -5,23 +5,61 @@ This section will provide the results from the data analysis of both the test of
 
 \section{Results from personality characteristics data analysis}
 
-The characteristics were rated using a scale from 1-5 in which 5 meant a high presence of the characteristic in the interaction with bot, and 1 meant no presence of the characteristics. The data-set was analysed through a two-way repeated measures ANOVA to investigate whether an interaction effect occurred within subjects, as all participants were subjected to all conditions.
+The characteristics were rated using a scale from 1-5 in which 5 meant a high perceived presence of the characteristic in the interaction with bot, and 1 meant no perceived presence of the characteristics. The data-set was analysed through a two-way repeated measures ANOVA to investigate whether an interaction effect occurred within subjects, as all participants were subjected to all conditions.
 
-The descriptive statistics of the characteristics data analysis can be found in \todo{write in statistics descriptive}. 
+The descriptive statistics of the characteristics data analysis can be found in table \ref{table:5}.
 
-\todo{add the descriptive statistics table}
+\begin{table}[h]
+\centering
+\begin{tabular}{cccccc}
+\hline
+\multicolumn{6}{c}{\textbf{Descriptive Statistics}} \\
+\hline
+& N & Minimum & Maximum & Mean & Std. Deviation \\
+Extroversion_A & 16 & 2 & 5 & 4,3125 & 0,8116 \\
+Extroversion_B & 16 & 1,67 & 3,33 & 2,2708 & 0,47483 \\
+Agreeable_A & 16 & 4 & 5 & 4,625 & 0,30277 \\
+Agreeable_B & 16 & 2,25 & 4,5 & 3,4219 & 0,57532 \\
+Conscientious_A & 16 & 3,33 & 5 & 4,2917 & 0,5146 \\
+Conscientious_B & 16 & 2,67 & 4,67 & 3,9167 & 0,60246 \\
+Openness_A & 16 & 3 & 5 & 4,0781 & 0,59665 \\
+Openness_B & 16 & 1,5 & 5 & 3,4531 & 0,92294 \\
+\end{tabular}
+ \caption{Descriptive statistics chatbot characteristics results}
+ \label{table:5}
+    \end{table}
 
-A two-way repeated measures ANOVA was conducted that examined how the participants perceived the appointed personality traits to each chatbot version. The independent variable personality has two levels, and the dependent variable characteristics has four levels where each level describes a factor from the five factor model (extroversion, agreeable, conscientiousness, openness). The two-way repeated ANOVA included a between subject factor (startbot) to investigate whether the order of chatbots participants were subjected to had any effect on the results.
+A two-way repeated measures ANOVA was conducted that examined whether the starting condition had an interaction effect. The independent variable personality has two levels, and the dependent variable characteristics has four factors where each factor describes a factor from the five factor model (extroversion, agreeable, conscientiousness, openness). The two-way repeated ANOVA included a starting condition (startbot) to investigate whether the order of chatbots participants were subjected to had any effect on the results.
 
-There was a significant main effect of the two levels of personality with respect to the characteristics F(1,14)=73,181, p<,001 and there was an INsignificant interaction effect between personality and the start bot p=,926. There was also a significant main effect between the characteristics F(3,42)=12,960, p<,001, and an INsignificant effect between characteristics and start bot p=,869. There was a significant interaction effect between personality and characteristics p<,001. There was an INsignificant interaction effect between the personality and characteristic and the starting order (personality*characteristics*startbot) p=,380.
+There was a significant main effect of the two levels of personality with respect to the characteristics F(1,14)=73,181, p<,001 and there was an INsignificant interaction effect between personality and the starting condition p=,926. There was also a significant main effect between the characteristics F(3,42)=12,960, p<,001, and an INsignificant effect between characteristics and starting condition p=,869. There was a significant interaction effect between personality and characteristics p<,001. There was an INsignificant interaction effect between the personality and characteristic and the starting order (personality*characteristics*startbot) p=,380.
+
+A paired-samples T-Test was conducted. The results found that there is a significant difference between the two levels of personality and the perceived characteristics. Agreeableness Chatbot B (M=3,4219, SD=,57532) and Chatbot A (M=4,6250, SD=,30277); t(15)=-8,760, p < ,001. Extroversion Chatbot B (M=2,2708, SD=,47483) and Chatbot A (M=4,3125, SD=,81166) t(15)=-8,976, p < ,001. Openness Chatbot B (M=3,4531, SD=,92294) and Chatbot A (M=4,0781 SD=,59665) t(15)=-3,727, p = ,002. Conscientiousness Chatbot B (M=3,9167, SD=,60246) and Chatbot A (M=4,2917, SD=,51460) t(15)=-2,522, p = ,023. These results suggests that participants perceived the two personalities as significantly different from one another. The Mean score difference between Chatbot B and A, suggests that participants perceived all characteristics in Chatbot A to a higher degree than in Chatbot B, where the extroversion factor had the largest difference in mean score.
 
 \section{Results from AttrakDiff data analysis }
 
 The data-set was analysed through a two-way ANOVA to understand whether an interaction effect occurred that could have an impact on how users rated either version. The analysis investigated the effect the independent variable personality had on the dependent variable user experience. Personality includes two levels, and user experience is made up of four factors (pragmatic, hedonic identity, hedonic simulation, attractiveness).
 
-The descriptive statistics of the AttrakDiff data analysis can be found in \todo{write in statistics descriptive}. 
+The descriptive statistics of the AttrakDiff data analysis can be found in table \ref{table:6}. Descriptive statistic for all word-pairs found in each factor can be found in Appendix \todo{appendix}.
 
-\todo{add the descriptive statistics table}
+\begin{table}[h]
+\centering
+\begin{tabular}{cccccc}
+\hline
+\multicolumn{6}{c}{\textbf{Descriptive Statistics}} \\
+\hline
+& N & Minimum & Maximum & Mean & Std. Deviation \\
+PQ_A & 16 & 4,86 & 6,71 & 5,9286 & 0,56424 \\
+PQ_B & 16 & 4 & 6,43 & 5,4732 & 0,5964 \\
+HQ-I_A & 16 & 4 & 6,29 & 5,4821 & 0,53165 \\
+HQ-I_B & 16 & 3,57 & 5,43 & 4,7679 & 0,56874 \\
+HQ-S_A & 16 & 5,14 & 6,14 & 5,625 & 0,29909 \\
+HQ-S_B & 16 & 2,57 & 6,57 & 4,7768 & 1,19405 \\
+ATT_A & 16 & 5,14 & 7 & 6,3482 & 0,44864 \\
+ATT_B & 16 & 3,9 & 6,3 & 5,339 & 0,7805 \\
+\end{tabular}
+\caption{Descriptive statistics AttrakDiff results}
+ \label{table:6}
+    \end{table}
 
 A two-way repeated measures ANOVA was conducted to investigate the effect of the starting condition (startbot) had on the independent variable personality and the dependent variable user experience. Personality has two levels (personality, no personality) and user experience has four factors (pragmatic, hedonic stimulation, hedonic identity, attractiveness). The between-subjects factor (startbot), tested for any interaction effect dependent on which chatbot participants started with (chatbot A or Chatbot B).  
 
@@ -31,14 +69,11 @@ The paired samples t-test found that there is a significant difference in the sc
 
 The pairwise comparisons table showed that there was a significant difference between the two levels of personality. With a mean difference ,757 between chatbot A and Chatbot B (p=,001).
 
-There is often the need to layout tables that are long.  We suggest using the sidewaystable mode for this.  You will need to manage the total width of the table to make it fit, but you can see how to do that in the example in Table~\ref{tbl:CBM-MC}.
-
-Writing your own \LaTeX{} tables is very slow, and error prone. There are many converstion tools to help create tables.  The one we used for the sideways table, Table~\ref{tbl:CBM-MC} is LatexKit\footnote{Google plugin for LatexKit \url{https://chrome.google.com/webstore/detail/latexkit/piadpbgaacpbaicjilhfebbfgofomiic}}
 
 % you can also set widths using a new command 
 %\newcommand{\Colwidth}{0.08\textwidth}
 %\begin{tabular}{l|p{\Colwidth}|p{\Colwidth}|p{\Colwidth}|p{\Colwidth}|p{\Colwidth}|p{\Colwidth}|p{\Colwidth}|p{\Colwidth}|}
-
+\subsection{sidewaystable}
 \begin{sidewaystable}
 \small{
 \begin{tabular}{l|cccccccccccccccccc}
