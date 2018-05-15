@@ -36,7 +36,7 @@ There was a significant main effect of the two levels of personality with respec
 A paired-samples T-Test was conducted. The results found that there is a significant difference between the two levels of personality and the perceived characteristics. Agreeableness Chatbot B (M=3,4219, SD=,57532) and Chatbot A (M=4,6250, SD=,30277); t(15)=-8,760, p < ,001. Extroversion Chatbot B (M=2,2708, SD=,47483) and Chatbot A (M=4,3125, SD=,81166) t(15)=-8,976, p < ,001. Openness Chatbot B (M=3,4531, SD=,92294) and Chatbot A (M=4,0781 SD=,59665) t(15)=-3,727, p = ,002. Conscientiousness Chatbot B (M=3,9167, SD=,60246) and Chatbot A (M=4,2917, SD=,51460) t(15)=-2,522, p = ,023. These results suggests that participants perceived the two personalities as significantly different from one another. The Mean score difference between Chatbot B and A, suggests that participants perceived all characteristics in Chatbot A to a higher degree than in Chatbot B, where the extroversion factor had the largest difference in mean score.
 
 \section{Results from AttrakDiff data analysis }
-
+        
 The data-set was analysed through a two-way ANOVA to understand whether an interaction effect occurred that could have an impact on how users rated either version. The analysis investigated the effect the independent variable personality had on the dependent variable user experience. Personality includes two levels, and user experience is made up of four factors (pragmatic, hedonic identity, hedonic simulation, attractiveness).
 
 The descriptive statistics of the AttrakDiff data analysis can be found in table \ref{table:6}. Descriptive statistic for all word-pairs found in each factor can be found in Appendix \todo{appendix}.
@@ -67,47 +67,29 @@ There was a significant main effect of the two levels of personality with respec
 
 The paired samples t-test found that there is a significant difference in the scores between Chatbot B and Chatbot A, where all four factors of the user experience showed a significant improved effect between Chatbot B and A. Pragmatic Quality Chatbot B (M=5,4732, SD=,59649) and Chatbot A (M=5,9286, SD=56424); t(15)=-2,152, p = ,048. Hedonic-I Quality Chatbot B (M=4,7679, SD=,56874) and Chatbot A (M=5,4821, SD=,53165) t(15)=-3,239, p = ,006. Hedonic-S Quality Chatbot B (M=4,7768, SD=1,19405) and Chatbot A (M=5,6250 SD=,29909) t(15)=-2,934, p = ,010. Attractiveness Chatbot B (M=5,339, SD=,7805) and Chatbot A (M=6,3482, SD=,44864) t(15)=-4,069, p = ,001. These results suggests that personality has an improved effect on the user experience of chatbots, as all four factors of user experience was scored higher for chatbot A than chatbot B.
 
-The pairwise comparisons table showed that there was a significant difference between the two levels of personality. With a mean difference ,757 between chatbot A and Chatbot B (p=,001).
+As shown in Figure \ref{fig:portres}, Chatbot A performed better in both hedonic and pragmatic quality than Chatbot B. The rectangles shows the confidence observed for Chatbot A and B, where Chatbot A has a smaller confidence rectangle implying that the participants were largely at one. Chatbot B however has a much larger confidence rectangle, which suggests that participant responses differed more greatly. 
 
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.4]{figures/Portfolio-of-results-attrakdiff.png}
+    \caption{Results Attrakdiff}
+    \label{fig:portres}
+\end{figure}
+        
+Figure \ref{fig:diagval} shoes the means score of each user experience factor and how the two personalities scored compared to each other. The diagram shows that the difference is greater when it comes to hedonic quality-simulation and attractiveness, while the differences are less when it comes to pragmatic quality in particular. As the two personalities only shared traits found in the conscientiousness personality factor (reliable, consistent, perceptive) this result is to be expected as those traits are often found to be pragmatic qualities.
 
-% you can also set widths using a new command 
-%\newcommand{\Colwidth}{0.08\textwidth}
-%\begin{tabular}{l|p{\Colwidth}|p{\Colwidth}|p{\Colwidth}|p{\Colwidth}|p{\Colwidth}|p{\Colwidth}|p{\Colwidth}|p{\Colwidth}|}
-\subsection{sidewaystable}
-\begin{sidewaystable}
-\small{
-\begin{tabular}{l|cccccccccccccccccc}
-Candidate & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & Num & CBM & Diff. \\
-\hline
-10001 & 0 & -0.5 & 1 & -0.5 & 1 & -0.5 & -0.5 & 2 & 2 & -2 & 2 & 1.5 & -0.5 & 2 & 2 & 8 & 9 & 0.5 \\
-10002 & 0 & 2 & 0 & 0 & 0 & 2 & 2 & 2 & 1 & 1 & 1 & 2 & 0 & 2 & 2 & 10 & 17 & 4.5 \\
-10003 & 0 & 2 & -0.5 & 0 & 0 & 2 & 1.5 & 1.5 & 2 & -0.5 & 2 & 1 & 0 & 1.5 & 1.5 & 9 & 14 & 3.5 \\
-10004 & 2 & -0.5 & 1 & 0 & 0 & 0 & 2 & 2 & 1 & 0 & 0 & 1 & -0.5 & 1 & -0.5 & 7 & 8.5 & 1.5 \\
-10005 & 1 & 0 & 0 & 0 & 0 & 1 & 1 & 0 & 1 & 1 & 1 & 1 & 0 & 1 & 1 & 9 & 9 & -1.5 \\
-10006 & 2 & -2 & 0 & -0.5 & 1.5 & 1 & 0 & 2 & 2 & 0 & 2 & 2 & -0.5 & 2 & 2 & 9 & 13.5 & 3 \\
-10007 & 1 & -2 & 0 & 0 & 1 & 0 & 1.5 & 2 & 2 & -2 & 0 & 1.5 & -2 & 2 & 1 & 8 & 6 & -2.5 \\
-10008 & 2 & 2 & -2 & 0 & 2 & 0 & 2 & 2 & 1.5 & 1.5 & 2 & 1.5 & -0.5 & 2 & 2 & 11 & 18 & 3.5 \\
-10009 & 2 & -0.5 & 1 & 0 & -0.5 & 2 & -0.5 & 2 & 2 & 0 & 2 & 2 & -0.5 & -0.5 & 2 & 8 & 12.5 & 4 \\
-10010 & 2 & -2 & 2 & 0 & -2 & 2 & 2 & 2 & 1.5 & 1.5 & 1.5 & 2 & 0 & 2 & 2 & 11 & 16.5 & 2 \\
-10011 & 2 & 2 & 0 & 1 & 2 & 2 & 2 & -0.5 & 2 & 0 & 2 & 2 & -0.5 & 2 & 2 & 11 & 20 & 5.5 \\
-10012 & 2 & 1 & 0 & 2 & -2 & 2 & 2 & 2 & 2 & 0 & 1 & 2 & 0 & 2 & 2 & 11 & 18 & 3.5 \\
-10013 & 2 & 2 & 1.5 & 0 & 0 & 2 & 2 & 2 & 1 & 0 & 1 & 2 & -0.5 & 2 & 2 & 11 & 19 & 4.5 \\
-10014 & 2 & 2 & 1 & -0.5 & -2 & -2 & 1.5 & 2 & 2 & 1.5 & 2 & 2 & 2 & -0.5 & 2 & 11 & 15 & 0.5 \\
-10015 & 1.5 & -2 & 1.5 & 1.5 & 2 & 0 & 2 & 2 & 1.5 & 1 & 2 & -0.5 & 1 & 0 & 1.5 & 11 & 15 & 0.5 \\
-10016 & 1 & 2 & 0 & 0 & 1.5 & 0 & 0 & 2 & 1 & 0 & 1 & 1.5 & -0.5 & 1 & 2 & 9 & 12.5 & 2 \\
-10018 & 2 & 2 & 1 & 0 & -2 & 0 & -2 & 1.5 & 2 & 1 & 0 & 1.5 & 0 & 1 & 2 & 9 & 10 & -0.5 \\
-10019 & 2 & 2 & -2 & 0 & 1.5 & 2 & -0.5 & -0.5 & 1.5 & 1 & 2 & 2 & 0 & 1 & 2 & 10 & 14 & 1.5 \\
-10020 & 2 & 2 & 0 & 0 & 2 & 2 & 2 & 2 & -0.5 & 1 & 2 & 2 & 2 & 2 & 2 & 12 & 22.5 & 4.5 \\
-\end{tabular}
-}
-\caption[Confidence Based Marking]{Multichoice marking example data with 15 questions, Number correct (Num), the Confidence Based Marking (CBM) grade,  and the differentiation of knowledge quality (Diff)}
-\label{tbl:CBM-MC}
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.5]{figures/Diagram-of-average-values.png}
+    \caption{Diagram of average values}
+    \label{fig:diagval}
+\end{figure}
+        
+Figure \ref{fig:wordpairs} shows the average score for each of the word-pairs for both chatbot versions. This line graph shows clearly where the differences are largest, such as human-technical, and that the for the majority of word-pairs Chatbot A scores higher. The exceptions includes mainly word-pairs in the pragmatic quality: cumbersome-straightforward, unpredictable-predictable, unprofessional-professional. This suggests that a technical, impersonal or machine-like personality are seen as more professional and straightforward than a more human-like personality.
 
-\end{sidewaystable}
-
-%\begin{sidewaystable}
-%\centering
-%  \csvautobooktabular{figures/largeTable.csv}
-%\caption[Autogenerated on Sideways page]{using CSV tables to autogenerate the table in a sideways table. This is not an appropriate use of a sideways table as it is small}
-%\label{tbl:dataSetsideways}
-%\end{sidewaystable}
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.4]{figures/Description-of-word-pairs.png}
+    \caption{Description of word-pairs}
+    \label{fig:wordpairs}
+\end{figure}
