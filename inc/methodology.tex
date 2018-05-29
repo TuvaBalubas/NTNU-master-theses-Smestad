@@ -27,26 +27,22 @@ The chosen brand and domain was chosen at random and only to be used to provide 
 
 The intended user group for the chatbot prototype are between the ages of 25 to 40, aiming at young couples living together, preferably with young children. Research have found that this age group eats less fruits and vegetables and waste the most food compared to other age groups and other life situations \citep{forskning2011}. Therefore, to support the brand's mission of increased consumption of fruit and vegetables, the chatbot will focus on this target audience. This group usually have hectic days where healthy eating and activity can be difficult to maintain, and some are, or soon to be, in charge of their children’s diet and activity levels as well. As learning good habits starts when we are children, parents have a major impact in regards to teaching children the right habits. This shows that this group in particular are in need of a service which can help them cook healthy meals for themselves and their families, receive assistance to find easy and economical ways to add more nutritious produce to their meals, which will contribute to less food wasted.
 
-\section{Personality Framework}
+\section{The Personality Framework}
 
-The design process, UCD approach, helped form the requirements for the system, define system goals, and use cases. In addition it allowed for valuable insights regarding the users, their needs and frustrations with current solutions. This was necessary to understand the role of the chatbot, and which tasks were necessary for it to do. However, while we know what it needs to do, how can we script the conversation, the different intents, in which the users will have when addressing the chatbot? 
-
-In order to write the chatbot conversation flow, one must be able to understand how the chatbot should behave, and how this behaviour, or personality, best suits the users. To build the personality framework the researcher identified four components that the chatbot personality must be based on:
+In order to write the chatbot script, one must be able to understand how the chatbot should behave. Our behaviour is formed by our personalities, and we must also understand how this personality can be modelled to best suit the users. To build the personality framework the researcher identified four components that the chatbot personality must be based on:
 
 \begin{enumerate}
-    \item A deep understanding of the users and their needs 
     \item The brand mission, goals and values
+    \item A deep understanding of the users and their needs 
     \item The role/job of the chatbot
     \item An appropriate personality model
 \end{enumerate}
 
-These four conditions describes four questions that designers must have the answer to in order to have the necessary components to build the chatbot personality.
+The first component must be met to ensure that the chatbot's personality and behaviour is consistent with the goals, values and tone of voice of the brand it represents, and supports the mission of the brand. The second component must be met to ensure that the personality supports the goals of the users, and to determine which personality traits that are appropriate for the user group. The third component is important as it dictates the social role of the chatbot, which again will help find appropriate traits that are compatible with its role. The final component, an appropriate personality model, is necessary to organise and map out the personality traits into a suitable framework. The following sections will explain how the personality framework was applied to build the chatbot personality that will later be the basis of the user experience experiment.
 
-\vspace{5mm} %5mm vertical space
+\subsection{Design process}
 
-\subsection{Design process to determine user needs}
-
-To meet the first component; to build a deep understanding of the users and their needs, a user-centred design approach was followed to gain insights into the needs and inform the requirements of the chatbot prototypes. The UCD process was divided into the stages of:  1) inspiration 2) ideation 3) implementation (See Figure \ref{fig:ideo}, \cite{IDEO.org}).
+ The design process used a user-centred design methodology; to gain insights into the needs of users and inform the requirements of the chatbot prototype. This UCD process was divided into the stages of:  1) inspiration 2) ideation 3) implementation (See Figure \ref{fig:ideo}, \cite{IDEO.org}).
 
 \begin{figure}[H]
     \centering
@@ -55,37 +51,13 @@ To meet the first component; to build a deep understanding of the users and thei
     \label{fig:ideo}
 \end{figure}
 
-According to \cite{Gould1985} there are three key principles of UCD: an early focus on users and tasks, empirical measurement of product usage, and iterative design. The three stages will therefore all follow the key principles of UCD, where the first stage (inspiration) will focus on user and domain research, ideation will focus on designing the elements of the chatbot prototype, and implementation will focus on the final prototype which will be used to evaluate the design process, the personality framework, and whether personality design benefits the user experience. As a UCD approach is characterised by empirical measurement, iterative design, and focus on users, each deliverable will be empirically tested through user testing techniques in iterations to inform the final prototype.
+According to \cite{Gould1985} there are three key principles of UCD: an early focus on users and tasks, empirical measurement of product usage, and iterative design. The three stages will therefore all follow the key principles of UCD, where the first stage (inspiration) will focus on user and domain research (component 1 and 2 of the personality framework), ideation will focus on designing and building the chatbot prototype and define the personality (component 3 and 4 of the personality framework), and implementation will focus on the evaluation of the final prototype, which will evaluate the personality in regards to how it's perceived and its effects on the user experience. As a UCD approach is characterised by empirical measurement, iterative design, and focus on users, each deliverable will be empirically tested through user testing techniques in iterations to inform the final prototype, while the final evaluation will be used to gather quantitative data to answer the second research question, and belonging hypotheses (stated in \ref{experimentdesign}).
 
-\vspace{2,5mm} %2,5mm vertical space
+\vspace{5mm} %5mm vertical space
 
-    \subsubsection{User interviews}
-    
-   All the stages of the design process followed a strict user-centred design methodology. The inspiration phase focused on gathering insights into the domain at hand. This included conducting a brand analysis of the available content in order to inform the mission statement, values, goals and target audiences. In addition, secondary research was gathered in order to understand trends, causes and action-plans regarding increasing healthier lifestyles and waste less food.
-   
-   Once secondary knowledge had been collected, a series of interviews was conducted in order to understand the experiences of the users, how do they view their intake of fruit and vegetables, what obstacles do they face, and why they think they are not eating healthy enough. Eight users were recruited, or four couples, in the ages of 29 to 36, four mothers and four fathers. All four couples had two children in kindergarten and/or early elementary school age. Six of the participants works full time, while one mother was on maternal leave as the interviews were conducted. Two participants, one male and one female, were part-time workers and/or students at the time of the interviews.
-   
-   The interview guides prepared were semi-structured and aimed at mapping the daily routines, views, habits, pains and frustrations of the users during an average week. In particular the interviews aimed to see how parents assess their own eating and activity habits, and whether they are aware of food waste occurring and if so why. The interview guide can be found in Appendix \ref{interviewguide}. 
-   
-   The findings from the interviews were summarised to inform a PACT analysis (\ref{PACT}), to give an understanding of the current state of the services and digital channels of the brand in question and the user group.
+\subsection{The Brand Mission, Goals, and Values}
 
-\vspace{2,5mm} %2,5mm vertical space
-
-    \subsubsection{User Personas and User Scenarios}
-        \label{persscen}
-    In the ideation phase the researcher created user personas, based on findings from the interview and the PACT analysis (see \ref{Userpersona}). To understand the requirements of the system, the user personas describes which goals the users wish to meet using the chatbot, their frustrations and pains and motivations for using the chatbot. Once the personas had been formed, findings from the inspirations phase were used to develop user scenarios. The user scenarios followed the method laid out by \cite{Benyon2014}, which uses insights from user research to describe user stories, to conceptual scenarios, to concrete scenarios to use cases (see figure \ref{fig:scen}). Examples of the conceptual stories can be found in \ref{Userscenarios}. The use cases formed the conversation flows, an example of these can be found in \ref{converflow}. The most important tasks that added the most value to users, was to make use of the chatbots AI to make planning dinners easier. Therefore the chatbot will help its users with planning meals on a weekly basis, each recipe will provide the necessary nutritional value needed for each member of the family, and the recipes will be "smart": generate grocery lists automatically and ensure as little leftovers as possible (both in the fridge/cupboards and on the plate). This will guarantee healthy eating for all users, decrease the needs for trips to the grocery store, and prevent food waste to a degree.
-    
-     \begin{figure}
-            \centering
-            \includegraphics[width=\textwidth]{figures/Scenariobasedmethod.png}
-            \caption{Scenario-based design method as discussed in \cite{Benyon2014}}
-            \label{fig:scen}
-        \end{figure}
-    
-\vspace{2,5mm} %2,5mm vertical space
-
-    \subsection{The Brand Mission, Goals, and Values}
-    To design a chatbot that conforms to the brand it represents, the brand image was analysed and defined. The mission statement was identified, the company and core values was defined, and a tone-of-voice analysis was conducted.
+To design a chatbot that conforms to the brand it represents, the brand image was analysed and defined. The mission statement was identified, the company and core values was defined, and a tone-of-voice analysis was conducted.
     
 \vspace{2,5mm}
     
@@ -119,24 +91,43 @@ According to \cite{Gould1985} there are three key principles of UCD: an early fo
     \label{table:1}
     \end{table}
 
-        \subsubsection{Tone of Voice analysis}
+    \subsubsection{Tone of Voice analysis}
     
-        If the chatbot are to be perceived as an extension or continuation of the brand, it must adhere to the brands tone-of-voice. Tone-of-voice is defined as a brands personality, communicated through its written communication as well as the visual communication. Norman \& Nielsen defined a framework to determine tone-of-voice based on 4 dimension: funny vs. serious, formal vs. causal, respectful vs. irreverent, enthusiastic vs. matter-of-fact.
+    If the chatbot are to be perceived as an extension or continuation of the brand, it must adhere to the brands tone-of-voice. Tone-of-voice is defined as a brands personality, communicated through its written communication as well as the visual communication. Norman \& Nielsen \citep{meyer-2016} defined a framework to determine tone-of-voice based on 4 dimension: funny vs. serious, formal vs. causal, respectful vs. irreverent, enthusiastic vs. matter-of-fact.
     
-        \begin{figure}
-            \centering
-            \includegraphics[width=\textwidth]{figures/Tone-of-voice.png}
-            \caption{This figure shows how the tone-of-voice was defined by understanding the mission, the values and conducting a tone analysis of the written copy}
-            \label{fig:tov}
-        \end{figure}
+    \begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{figures/Tone-of-voice.png}
+    \caption{This figure shows how the tone-of-voice was defined by understanding the mission, the values and conducting a tone analysis of the written copy}
+    \label{fig:tov}
+    \end{figure}
     
-        Figure \ref{fig:tov} shows how the tone-of-voice was determined by assessing the mission statement, the company's values inwards and outwards, and through a tone analysis. The tone analysis was conducted using the IBM tone analyser tool, the analyser assessed the written copy found on the brands website. Their tone-of-voice as reflected in their copy is more serious than funny, but not too serious as the tone is also a nice in-between of formal and casual. Their tone is very respectful, which follows their core values of tolerance and respectfulness. Lastly they are leaning towards more enthusiastic than matter-of-fact as they carry a very positive and joyful view of the future and their path to fulfil their goals.
+    Figure \ref{fig:tov} shows how the tone-of-voice was determined by assessing the mission statement, the company's values inwards and outwards, and through a tone analysis. The tone analysis was conducted using the IBM tone analyser tool, the analyser assessed the written copy found on the brands website. Their tone-of-voice as reflected in their copy is more serious than funny, but not too serious as the tone is also a nice in-between of formal and casual. Their tone is very respectful, which follows their core values of tolerance and respectfulness. Lastly they are leaning towards more enthusiastic than matter-of-fact as they carry a very positive and joyful view of the future and their path to fulfil their goals.
 
 \vspace{5mm}
 
+\subsection{Understanding User Needs}
+    
+  To meet the second component; to build a deep understanding of the users and their needs,  both primary and secondary research was gathered in order to understand the user group, trends, causes and statistics regarding healthy eating and food waste. A series of interviews was conducted in order to understand the experiences of the users; how do they view their intake of fruit and vegetables, what obstacles do they face, and why they think they are not eating healthy enough. Eight users were recruited, or four couples, in the ages of 29 to 36, four mothers and four fathers. All four couples had two children in kindergarten and/or early elementary school age. Six of the participants works full time, while one mother was on maternal leave as the interviews were conducted. Two participants, one male and one female, were part-time workers and/or students at the time of the interviews. The interview guides prepared were semi-structured and aimed at mapping the daily routines, views, habits, pains and frustrations of the users during an average week. In particular the interviews aimed to see how parents assess their own eating and activity habits, and whether they are aware of food waste occurring and if so why. The interview guide can be found in Appendix \ref{interviewguide}. 
+  
+\vspace{2,5mm} %2,5mm vertical space
+
+    \subsubsection{User Personas and User Scenarios}
+        \label{persscen}
+    Based on the findings from the user interviews and information from secondary research, user personas were developed (see \ref{Userpersona}). To understand the requirements of the system, the user personas describes which goals the users wish to meet using the chatbot, as well as their frustrations and pains with existing solutions (or lack there of) and motivations for adopting a new tool to solve their needs. Once the personas had been formed, they were used alongside other important findings to develop user scenarios. The user scenarios followed the method laid out by \cite{Benyon2014}, which uses insights from user research to describe user stories, to conceptual scenarios, to concrete scenarios to use cases (see figure \ref{fig:scen}). Examples of the conceptual stories can be found in \ref{Userscenarios}. The use cases formed the conversation flows, an example of these can be found in \ref{converflow}. The most important tasks that added the most value to users, was to make use of the chatbots AI to make planning dinners easier. Therefore the chatbot will help its users with planning meals on a weekly basis, each recipe will provide the necessary nutritional value needed for each member of the family, and the recipes will be "smart": generate grocery lists automatically and ensure as little leftovers as possible (both in the fridge/cupboards and on the plate). This will guarantee healthy eating for all users, decrease the needs for trips to the grocery store, and prevent food waste to a degree.
+    
+     \begin{figure}
+            \centering
+            \includegraphics[width=\textwidth]{figures/Scenariobasedmethod.png}
+            \caption{Scenario-based design method as discussed in \cite{Benyon2014}}
+            \label{fig:scen}
+        \end{figure}
+    
+\vspace{2,5mm} %2,5mm vertical space
+
     \subsection{The Chatbot Role}
     
-    The user-centred approach identified the two most important jobs the chatbot could do that both furthers the goals of the brand and add value to the users: increase the consumption of fruits and vegetables, and reduce food waste. Therefore, the job of the chatbot agent is to \textit{assist} users to help them take healthier choices for their family and \textit{motivate} them to successfully implement these changes. The chatbot is there to assist and guide the users, with the long term goal of successfully implementing a fresher and healthier lifestyle and reduce food waste. 
+    The third component of the personality framework consists of understanding the role the chatbot should play, or the job it should do. The user-centred approach identified the two most important jobs the chatbot could do that both furthers the goals of the brand and add value to the users: increase the consumption of fruits and vegetables, and reduce food waste. Therefore, the job of the chatbot agent is to \textit{assist} users to help them make healthier choices for their family and \textit{motivate} them to successfully implement these changes. The chatbot is there to assist and guide the users, with the long term goal of successfully implementing a fresher and healthier lifestyle and reduce food waste. 
     
     To achieve this the chatbot will help parents plan their dinners for the whole week, assist with the shopping and make recommendations based on ingredients they have in house and leftovers. In addition to this the chatbot encourages parents to inform the chatbot about what they have eaten so far, what was a success and what wasn’t so that the chatbot can learn which items are not eaten, are wasted and instead offer healthy alternatives that will be eaten rather than wasted. 
     
@@ -251,6 +242,7 @@ According to \cite{Gould1985} there are three key principles of UCD: an early fo
 \vspace{5mm} %5mm vertical space
     
 \section{Experiment Design}
+    \label{experimentdesign}
 
 The experiment will be conducted in two parts in order to answer the second research question: \textit{Will chatbots with a defined personality improve the user experience of chatbot interfaces?}. The first part of the experiment (Experiment Part 1) consists of evaluating whether participants perceive the intended personalities for both chatbot versions. This it to control that the personality has been modelled correctly, and are perceived as such. This will also test whether the personalities are perceived consistently by all participants, and that they are in agreement. Then, the second experiment (Experiment Part 2) will assess whether personality has an effect on the user experience. Each part of the experiment will be conducted simultaneously, and repeated for each chatbot version as seen in table \ref{table:expdes}.
 
