@@ -56,17 +56,22 @@ To meet the first component; to build a deep understanding of the users and thei
    
    Once secondary knowledge had been collected, a series of interviews was conducted in order to understand the experiences of the users, how do they view their intake of fruit and vegetables, what obstacles do they face, and why they think they are not eating healthy enough. Eight users were recruited, or four couples, in the ages of 29 to 36, four mothers and four fathers. All four couples had two children in kindergarten and/or early elementary school age. Six of the participants works full time, while one mother was on maternal leave as the interviews were conducted. Two participants, one male and one female, were part-time workers and/or students at the time of the interviews.
    
-   The interview guides prepared were semi-structured and aimed at mapping the daily routines, views, habits, pains and frustrations of the users during an average week. In particular the interviews aimed to see how parents assess their own eating and activity habits, and whether they are aware of food waste occurring and if so why. The interview guide can be found in Appendix XX. 
+   The interview guides prepared were semi-structured and aimed at mapping the daily routines, views, habits, pains and frustrations of the users during an average week. In particular the interviews aimed to see how parents assess their own eating and activity habits, and whether they are aware of food waste occurring and if so why. The interview guide can be found in Appendix \ref{interviewguide}. 
    
-   The findings from the interviews were summarised to inform a PACT analysis (appendix XX), to give an understanding of the current state of the services and digital channels of the brand in question and the user group.
+   The findings from the interviews were summarised to inform a PACT analysis (\ref{PACT}), to give an understanding of the current state of the services and digital channels of the brand in question and the user group.
 
 \vspace{2,5mm} %2,5mm vertical space
 
     \subsubsection{User Personas and User Scenarios}
     
-    In the ideation phase the researcher created user personas, based on findings from the interview and the PACT analysis. To understand the requirements of the system, the user personas describes which goals the users wish to meet using the chatbot, their frustrations and pains and motivations for using the chatbot. Once the personas had been formed, findings from the inspirations phase were used to develop user scenarios --> conceptual scenarios --> concrete scenarios --> use cases. These can be found in Appendix XX. The most important tasks that added the most value to users, was to make use of the chatbots AI to make planning dinners easier. Therefore the chatbot will help its users with planning meals on a weekly basis, each recipe will provide the necessary nutritional value needed for each member of the family, and the recipes will be "smart": generate grocery lists automatically and ensure as little leftovers as possible (both in the fridge/cupboards and on the plate). This will guarantee healthy eating for all users, decrease the needs for trips to the grocery store, and prevent food waste to a degree.
+    In the ideation phase the researcher created user personas, based on findings from the interview and the PACT analysis (see \ref{Userpersona}). To understand the requirements of the system, the user personas describes which goals the users wish to meet using the chatbot, their frustrations and pains and motivations for using the chatbot. Once the personas had been formed, findings from the inspirations phase were used to develop user scenarios. The user scenarios followed the method laid out by \cite{Benyon2014}, which uses insights from user research to describe user stories, to conceptual scenarios, to concrete scenarios to use cases (see figure \ref{fig:scen}). Examples of the conceptual stories can be found in \ref{Userscenarios}. The use cases formed the conversation flows, an example of these can be found in \todo{appendix}. The most important tasks that added the most value to users, was to make use of the chatbots AI to make planning dinners easier. Therefore the chatbot will help its users with planning meals on a weekly basis, each recipe will provide the necessary nutritional value needed for each member of the family, and the recipes will be "smart": generate grocery lists automatically and ensure as little leftovers as possible (both in the fridge/cupboards and on the plate). This will guarantee healthy eating for all users, decrease the needs for trips to the grocery store, and prevent food waste to a degree.
     
-    %show flowchart of how to use scenarios
+     \begin{figure}
+            \centering
+            \includegraphics[width=\textwidth]{figures/Scenariobasedmethod.png}
+            \caption{Scenario-based design method as discussed in \cite{Benyon2014}}
+            \label{fig:scen}
+        \end{figure}
     
 \vspace{2,5mm} %2,5mm vertical space
 
@@ -183,7 +188,7 @@ To meet the first component; to build a deep understanding of the users and thei
 \vspace{5mm}
 
     \subsection{Prototype \& Conversational Design}
-    The chatbot prototype was built using the Chatfuel bot builder platform. The conversation design was written by mixing a user scenario technique (laid out in chapter 3.1.1) with mind-mapping tools, such as Xmind, to map out the different chatbot skills, user intentions, and conversation flows. To improve the AI of the chatbot, the researcher wrote more than 300 unique training data per chatbot skill. This resulted in participants testing eight different conversation flows, three of which can be seen in figure \ref{fig:convflow}. Mock-ups and wireframes of the chatbot prototype can be found in \todo{appendix}.
+    The chatbot prototype was built using the Chatfuel bot builder platform. The conversation design was written by mixing a user scenario technique (laid out in chapter 3.1.1) with mind-mapping tools, such as Xmind, to map out the different chatbot skills, user intentions, and conversation flows. To improve the AI of the chatbot, the researcher wrote more than 300 unique training data per chatbot skill. This resulted in participants testing eight different conversation flows, three of which can be seen in figure \ref{fig:convflow}.
     
     \begin{figure}[H]
         \centering
