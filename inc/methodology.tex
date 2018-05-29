@@ -46,7 +46,16 @@ These four conditions describes four questions that designers must have the answ
 
 \subsection{Design process to determine user needs}
 
-To meet the first component; to build a deep understanding of the users and their needs, a user-centred design approach was followed to gain insights into the needs and inform the requirements of the chatbot prototypes. The UCD process was divided into the stages of:  1) inspiration 2) ideation 3) implementation (See Figure 3.0, IDEO.org, 2015). According to \cite{Gould1985} there are three key principles of UCD: an early focus on users and tasks, empirical measurement of product usage, and iterative design. The three stages will therefore all follow the key principles of UCD, where the first stage (inspiration) will focus on user and domain research, ideation will focus on designing the elements of the chatbot prototype, and implementation will focus on the final prototype which will be used to evaluate the design process, the personality framework, and whether personality design benefits the user experience. As a UCD approach is characterised by empirical measurement, iterative design, and focus on users, each deliverable will be empirically tested through user testing techniques in iterations to inform the final prototype.
+To meet the first component; to build a deep understanding of the users and their needs, a user-centred design approach was followed to gain insights into the needs and inform the requirements of the chatbot prototypes. The UCD process was divided into the stages of:  1) inspiration 2) ideation 3) implementation (See Figure \ref{fig:ideo}, \cite{IDEO.org}).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics [width=\textwidth] {figures/IDEO.png}
+    \caption{IDEO.org human-centred design process}
+    \label{fig:ideo}
+\end{figure}
+
+According to \cite{Gould1985} there are three key principles of UCD: an early focus on users and tasks, empirical measurement of product usage, and iterative design. The three stages will therefore all follow the key principles of UCD, where the first stage (inspiration) will focus on user and domain research, ideation will focus on designing the elements of the chatbot prototype, and implementation will focus on the final prototype which will be used to evaluate the design process, the personality framework, and whether personality design benefits the user experience. As a UCD approach is characterised by empirical measurement, iterative design, and focus on users, each deliverable will be empirically tested through user testing techniques in iterations to inform the final prototype.
 
 \vspace{2,5mm} %2,5mm vertical space
 
@@ -63,8 +72,8 @@ To meet the first component; to build a deep understanding of the users and thei
 \vspace{2,5mm} %2,5mm vertical space
 
     \subsubsection{User Personas and User Scenarios}
-    
-    In the ideation phase the researcher created user personas, based on findings from the interview and the PACT analysis (see \ref{Userpersona}). To understand the requirements of the system, the user personas describes which goals the users wish to meet using the chatbot, their frustrations and pains and motivations for using the chatbot. Once the personas had been formed, findings from the inspirations phase were used to develop user scenarios. The user scenarios followed the method laid out by \cite{Benyon2014}, which uses insights from user research to describe user stories, to conceptual scenarios, to concrete scenarios to use cases (see figure \ref{fig:scen}). Examples of the conceptual stories can be found in \ref{Userscenarios}. The use cases formed the conversation flows, an example of these can be found in \todo{appendix}. The most important tasks that added the most value to users, was to make use of the chatbots AI to make planning dinners easier. Therefore the chatbot will help its users with planning meals on a weekly basis, each recipe will provide the necessary nutritional value needed for each member of the family, and the recipes will be "smart": generate grocery lists automatically and ensure as little leftovers as possible (both in the fridge/cupboards and on the plate). This will guarantee healthy eating for all users, decrease the needs for trips to the grocery store, and prevent food waste to a degree.
+        \label{persscen}
+    In the ideation phase the researcher created user personas, based on findings from the interview and the PACT analysis (see \ref{Userpersona}). To understand the requirements of the system, the user personas describes which goals the users wish to meet using the chatbot, their frustrations and pains and motivations for using the chatbot. Once the personas had been formed, findings from the inspirations phase were used to develop user scenarios. The user scenarios followed the method laid out by \cite{Benyon2014}, which uses insights from user research to describe user stories, to conceptual scenarios, to concrete scenarios to use cases (see figure \ref{fig:scen}). Examples of the conceptual stories can be found in \ref{Userscenarios}. The use cases formed the conversation flows, an example of these can be found in \ref{converflow}. The most important tasks that added the most value to users, was to make use of the chatbots AI to make planning dinners easier. Therefore the chatbot will help its users with planning meals on a weekly basis, each recipe will provide the necessary nutritional value needed for each member of the family, and the recipes will be "smart": generate grocery lists automatically and ensure as little leftovers as possible (both in the fridge/cupboards and on the plate). This will guarantee healthy eating for all users, decrease the needs for trips to the grocery store, and prevent food waste to a degree.
     
      \begin{figure}
             \centering
@@ -187,15 +196,19 @@ To meet the first component; to build a deep understanding of the users and thei
 
 \vspace{5mm}
 
-    \subsection{Prototype \& Conversational Design}
-    The chatbot prototype was built using the Chatfuel bot builder platform. The conversation design was written by mixing a user scenario technique (laid out in chapter 3.1.1) with mind-mapping tools, such as Xmind, to map out the different chatbot skills, user intentions, and conversation flows. To improve the AI of the chatbot, the researcher wrote more than 300 unique training data per chatbot skill. This resulted in participants testing eight different conversation flows, three of which can be seen in figure \ref{fig:convflow}.
+    \subsection{Prototype \& Conversation Design}
+    The chatbot prototype was built using the Chatfuel bot builder platform, and the experiment was run through Facebook's Messenger platform. The conversation design was written by mixing a user scenario technique with mind-mapping tools, such as Xmind, to map out the different chatbot skills, user intentions, and conversation flows (see \ref{persscen} \& \ref{Userscenarios}). To improve the AI of the chatbot, the researcher wrote more than 300 unique training data per chatbot skill. This resulted in participants testing eight different conversation flows, three of which can be seen in figure \ref{fig:convflow}. These eight chatbot skills included, planning dinner for the whole week or specific day, help using leftover ingredients, log five a day, help eating healthier or increase consumption of vegetables, add and locate shopping lists.
     
     \begin{figure}[H]
         \centering
         \includegraphics {figures/conversationflow_2.png}
-        \caption{Example of conversation users had with Bella}
+        \caption{Example of conversations users had with Bella}
         \label{fig:convflow}
     \end{figure}
+    
+    The conversation design began by forming different use cases, that were based on the concrete scenarios built around the insights from the user interviews. These use cases described the most important tasks the chatbot could provide to its users, and the conversations were written around these tasks. The goal of the conversation would be to complete the specific task described in the use case, and this of course can be done in many different ways, which gives you the possibility to play around with multiple paths to the same conversation goal. The main path was first identified, before creating different "sub-paths" to the same goal. 
+    
+    Training data for chatbots consists of variations of the user intention. This means as many versions of the same question or user input that describes the same goal. The training data is what builds the chatbots AI, and the more training data a chatbot has the more certain it becomes in predicting the right intent. If the chatbot is very well trained, it would be able to answer questions or input that has not been included in the training set, but describes the same intent.
 
         
 \vspace{5mm}
@@ -233,7 +246,7 @@ To meet the first component; to build a deep understanding of the users and thei
     \label{table:3}
     \end{table}
     
-    This means that Chatbot B will provide the same value to users as Chatbot A, by meeting their needs and being a great assistant. However, the motivator role will be affected by the different personalities, as Chatbot B will not act as a great motivator as these traits are mainly found in the Agreeable and Extroversion factors. Therefore Chatbot A and B will have the following traits in common: Reliable, Consistent, and Perceptive. These are the traits found in the conscientiousness factor, and mainly displayed through the assistant role. The traits found in the Openness factor will also be removed to some extent in Chatbot B, however some of the traits might be reflected in the tasks it performs and will therefore to some extent be present in Chatbot B.
+    This means that Chatbot B will provide the same value to users as Chatbot A, by meeting their needs and being a great assistant. However, the motivator role will be affected by the different personalities, as Chatbot B will not act as a great motivator as these traits are mainly found in the Agreeable and Extroversion factors. Therefore Chatbot A and B will have the following traits in common: Reliable, Consistent, and Perceptive. These are the traits found in the conscientiousness factor, and mainly displayed through the assistant role. The traits found in the Openness factor will also be removed to some extent in Chatbot B, however some of the traits might be reflected in the tasks it performs and will therefore to some extent be present in Chatbot B. The prototype for Chatbot B was built by duplicating Chatbot A, and change the way it responded to fit with its defined personality characteristics.
 
 \vspace{5mm} %5mm vertical space
     
