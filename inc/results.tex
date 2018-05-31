@@ -5,7 +5,7 @@ This section will provide the results from the data analysis of both parts of th
 
 \section{Part 1 Results: Personality characteristics data analysis}
 
-The characteristics were rated using a scale from 1-5 in which 5 meant a high perceived presence of the characteristic in the interaction with the chatbots, and 1 meant no perceived presence of the characteristics. The data-set was analysed through running a paired-samples t-test, and a two-way repeated measures ANOVA to investigate whether an interaction effect occurred within subjects, as all participants were subjected to all conditions. The analysis performed on this data set will be used to test $H_1 1$: \textit{Users will perceive the personality of Chatbot A as different to the personality of Chatbot B}, $H_1 2$: \textit{Users will perceive the personality of Chatbot A as intended}, and $H_1 3$: \textit{Users will perceive the personality of Chatbot B as intended}. The descriptive statistics of the characteristics data analysis can be found in Table \ref{table:5}.
+The characteristics were rated using a scale from 1-5 in which 5 meant a high perceived presence of the characteristic in the interaction with the chatbots, and 1 meant no perceived presence of the characteristics. The data-set was analysed through running a paired-samples t-test, and a two-way repeated measures ANOVA to investigate whether an interaction effect occurred within subjects, as all participants were subjected to all conditions. The independent variable personality has two levels, and the dependent variable characteristics has four factors where each factor describes a factor from the five factor model (extroversion, agreeable, conscientiousness, openness). The analysis performed on this data set will be used to test $H_1 1$: \textit{Users will perceive the personality of Chatbot A as different to the personality of Chatbot B}, $H_1 2$: \textit{Users will perceive the personality of Chatbot A as intended}, and $H_1 3$: \textit{Users will perceive the personality of Chatbot B as intended}. The descriptive statistics of the characteristics data analysis can be found in Table \ref{table:5}.
 
 \begin{table}[h]
 \centering
@@ -14,14 +14,14 @@ The characteristics were rated using a scale from 1-5 in which 5 meant a high pe
 \multicolumn{6}{c}{\textbf{Descriptive Statistics}} \\
 \hline
 & N & Minimum & Maximum & Mean & Std. Deviation \\
-$Extroversion_A$ & 16 & 2 & 5 & 4,3125 & 0,8116 \\
-$Extroversion_B$ & 16 & 1,67 & 3,33 & 2,2708 & 0,47483 \\
-$Agreeable_A$ & 16 & 4 & 5 & 4,625 & 0,30277 \\
-$Agreeable_B$ & 16 & 2,25 & 4,5 & 3,4219 & 0,57532 \\
-$Conscientious_A$ & 16 & 3,33 & 5 & 4,2917 & 0,5146 \\
-$Conscientious_B$ & 16 & 2,67 & 4,67 & 3,9167 & 0,60246 \\
-$Openness_A$ & 16 & 3 & 5 & 4,0781 & 0,59665 \\
-$Openness_B$ & 16 & 1,5 & 5 & 3,4531 & 0,92294 \\
+Extroversion$_A$ & 16 & 2 & 5 & 4,3125 & 0,8116 \\
+Extroversion$_B$ & 16 & 1,67 & 3,33 & 2,2708 & 0,47483 \\
+Agreeable$_A$ & 16 & 4 & 5 & 4,625 & 0,30277 \\
+Agreeable$_B$ & 16 & 2,25 & 4,5 & 3,4219 & 0,57532 \\
+Conscientious$_A$ & 16 & 3,33 & 5 & 4,2917 & 0,5146 \\
+Conscientious$_B$ & 16 & 2,67 & 4,67 & 3,9167 & 0,60246 \\
+Openness$_A$ & 16 & 3 & 5 & 4,0781 & 0,59665 \\
+Openness$_B$ & 16 & 1,5 & 5 & 3,4531 & 0,92294 \\
 \end{tabular}
  \caption{Descriptive statistics chatbot characteristics results}
  \label{table:5}
@@ -29,9 +29,7 @@ $Openness_B$ & 16 & 1,5 & 5 & 3,4531 & 0,92294 \\
 
 The paired-samples t-test found that there is a significant difference between the two levels of personality and the perceived characteristics. Agreeableness Chatbot B (M=3,4219, SD=,57532) and Agreeableness Chatbot A (M=4,6250, SD=,30277); t(15)=-8,760, p < ,001. Extroversion Chatbot B (M=2,2708, SD=,47483) and Extroversion Chatbot A (M=4,3125, SD=,81166) t(15)=-8,976, p < ,001. Openness Chatbot B (M=3,4531, SD=,92294) and Openness Chatbot A (M=4,0781 SD=,59665) t(15)=-3,727, p = ,002. Conscientiousness Chatbot B (M=3,9167, SD=,60246) and Conscientiousness Chatbot A (M=4,2917, SD=,51460) t(15)=-2,522, p = ,023. These results suggests that participants perceived the two personalities as significantly different from one another. The Mean score difference between Chatbot B and A, suggests that participants perceived all characteristics in Chatbot A to a higher degree than in Chatbot B, where the extroversion factor had the largest difference in mean score.
 
-The two-way repeated measures ANOVA examined whether the starting condition had an interaction effect. The independent variable personality has two levels, and the dependent variable characteristics has four factors where each factor describes a factor from the five factor model (extroversion, agreeable, conscientiousness, openness). The two-way repeated ANOVA included a starting condition (startbot) to investigate whether the order of chatbots participants were subjected to had any effect on the results.
-
-There was a significant main effect of the two levels of personality with respect to the characteristics F(1,14)=73,181, p<,001. There was also a significant main effect between the characteristics F(3,42)=12,960, p<,001. There was an INsignificant interaction effect of the starting condition (personality*characteristics*startbot) p=,380. See Figure \ref{fig:charactmeanAB}.
+The two-way repeated ANOVA investigated whether an interaction effect occurred with respect to the starting condition (startbot) to investigate whether the order of chatbots participants were subjected to had any effect on the results. There was a significant main effect of the two levels of personality with respect to the characteristics F(1,14)=73,181, p<,001. There was also a significant main effect between the characteristics F(3,42)=12,960, p<,001. There was an INsignificant interaction effect of the starting condition (personality*characteristics*startbot) p=,380. See Figure \ref{fig:charactmeanAB}.
 
 \begin{figure}[H]
     \centering
@@ -60,14 +58,14 @@ The results from the AttrakDiff evaluation was also analysed by running a paired
 \multicolumn{6}{c}{\textbf{Descriptive Statistics}} \\
 \hline
 & N & Minimum & Maximum & Mean & Std. Deviation \\
-$PQ_A$ & 16 & 4,86 & 6,71 & 5,9286 & 0,56424 \\
-$PQ_B$ & 16 & 4 & 6,43 & 5,4732 & 0,5964 \\
-$HQ-I_A$ & 16 & 4 & 6,29 & 5,4821 & 0,53165 \\
-$HQ-I_B$ & 16 & 3,57 & 5,43 & 4,7679 & 0,56874 \\
-$HQ-S_A$ & 16 & 5,14 & 6,14 & 5,625 & 0,29909 \\
-$HQ-S_B$ & 16 & 2,57 & 6,57 & 4,7768 & 1,19405 \\
-$ATT_A$ & 16 & 5,14 & 7 & 6,3482 & 0,44864 \\
-$ATT_B$ & 16 & 3,9 & 6,3 & 5,339 & 0,7805 \\
+PQ$_A$ & 16 & 4,86 & 6,71 & 5,9286 & 0,56424 \\
+PQ$_B$ & 16 & 4 & 6,43 & 5,4732 & 0,5964 \\
+HQ-I$_A$ & 16 & 4 & 6,29 & 5,4821 & 0,53165 \\
+HQ-I$_B$ & 16 & 3,57 & 5,43 & 4,7679 & 0,56874 \\
+HQ-S$_A$ & 16 & 5,14 & 6,14 & 5,625 & 0,29909 \\
+HQ-S$_B$ & 16 & 2,57 & 6,57 & 4,7768 & 1,19405 \\
+ATT$_A$ & 16 & 5,14 & 7 & 6,3482 & 0,44864 \\
+ATT$_B$ & 16 & 3,9 & 6,3 & 5,339 & 0,7805 \\
 \end{tabular}
 \caption{Descriptive statistics AttrakDiff results}
  \label{table:6}
