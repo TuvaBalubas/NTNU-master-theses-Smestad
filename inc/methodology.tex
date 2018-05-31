@@ -15,7 +15,7 @@ The combination of the implementation of the researcher's personality framework 
 
 The first research question and sub-questions will be answered through the researcher's experience implementing the developed personality framework. As there are no precise design methodology to build user-centred chatbots with a basis in personality, the researcher has combined techniques from user-centred design, branding, and personality theory in order to build a personality framework for chatbot interfaces. The design process will be user-centred and collect user research through both secondary research techniques and qualitative methods to gather insights into user needs and system requirements. The second research question will be answered through the experiment laid out later in this chapter. This experiment will assess the chatbot prototype against another version of the same chatbot which behaves more like a machine than human; the experiment will be used to collect quantitative data to measure whether the chatbot personality improves the user experience. This chapter will first explain how the personality framework and design process was implemented, second  the experiment setup, hypotheses and data collection will be laid out in depth.
 
-\vspace{5mm} %5mm vertical space
+\vspace{2,5mm}
 
 \subsection{Brand, Domain, and Usage}
 
@@ -23,9 +23,13 @@ To build the chatbot prototype, test the personality framework, and follow a use
 
 The chosen brand and domain was chosen at random and only to be used to provide as an example to apply and test the framework. The framework can however be used to design chatbot personalities for any brand and any domain. The chatbot prototype will be used to further the mission of the brand which is to increase the consumption of fruits and vegetables and reduce food waste. 
 
+\vspace{2,5mm}
+
 \subsection{User group}
 
 The intended user group for the chatbot prototype are between the ages of 25 to 40, aiming at young couples living together, preferably with young children. Research have found that this age group eats less fruits and vegetables and waste the most food compared to other age groups and other life situations \citep{forskning2011}. Therefore, to support the brand's mission of increased consumption of fruit and vegetables, the chatbot will focus on this target audience. This group usually have hectic days where healthy eating and activity can be difficult to maintain, and some are, or soon to be, in charge of their children’s diet and activity levels as well. As learning good habits starts when we are children, parents have a major impact in regards to teaching children the right habits. This shows that this group in particular are in need of a service which can help them plan healthy meals for themselves and their families, receive assistance to find easy and economical ways to add more nutritious produce to their meals, which will contribute to less food wasted.
+
+\vspace{5mm}
 
 \section{The Personality Framework}
 
@@ -40,11 +44,13 @@ To build the personality framework the researcher identified four components tha
 
 The first component must be met to ensure that the chatbot's personality and behaviour is consistent with the goals, values and tone of voice of the brand it represents, and supports the mission of the brand. The second component must be met to ensure that the personality supports the goals of the users, and to determine which personality traits that are appropriate for the user group. The third component is important as it dictates the social role of the chatbot, which again will help find appropriate traits that are compatible with its role. The final component, an appropriate personality model, is necessary to organise and map out the personality traits into a suitable framework. The following sections will explain how the personality framework was applied to build the chatbot personality that will later be the basis of the user experience experiment.
 
+\vspace{2,5mm}
+
 \subsection{Design process}
 
  The design process used a user-centred design methodology; to gain insights into the needs of users and inform the requirements of the chatbot prototype. This UCD process was divided into the stages of:  1) inspiration 2) ideation 3) implementation (following the human-centred methodology as proposed by \cite{IDEO.org}). According to \cite{Gould1985} there are three key principles of UCD: an early focus on users and tasks, empirical measurement of product usage, and iterative design. The three stages will therefore all follow the key principles of UCD, where the first stage (inspiration) will focus on user and domain research (component 1 and 2 of the personality framework), ideation will focus on designing and building the chatbot prototype and define the personality (component 3 and 4 of the personality framework), and implementation will focus on the evaluation of the final prototype, which will evaluate the personality in regards to how it's perceived and its effects on the user experience. As a UCD approach is characterised by empirical measurement, iterative design, and focus on users, each deliverable will be empirically tested through user testing techniques in iterations to inform the final prototype, while the final evaluation will be used to gather quantitative data to answer the second research question, and belonging hypotheses (stated in \ref{experimentdesign}).
 
-\vspace{5mm} %5mm vertical space
+\vspace{2,5mm}
 
 \subsection{The Brand Mission, Goals, and Values}
 
@@ -58,8 +64,9 @@ To design a chatbot that conforms to the brand it represents, the brand image wa
  
 \vspace{2,5mm}
   
-        \subsubsection{Mission: Fresher and healthier}
-        Taken a society position in the  market that contributes to increased focus on healthy diets and physical activity. A driver and pioneer for sustainable development regarding the environment and societal responsibility within the company’s product area.
+        \subsubsection{Mission}
+        
+        Their mission: \textit{Fresher and Healthier}; to contribute to increased focus on healthy diets and physical activity. A driver and pioneer for sustainable development regarding the environment and societal responsibility within the company’s product area.
         
 \vspace{2,5mm}
 
@@ -82,11 +89,13 @@ To design a chatbot that conforms to the brand it represents, the brand image wa
     \label{table:1}
     \end{table}
 
+\vspace{2,5mm}
+
     \subsubsection{Tone of Voice analysis}
     
     If the chatbot are to be perceived as an extension or continuation of the brand, it must adhere to the brands tone-of-voice. Tone-of-voice is defined as a brands personality, communicated through its written communication as well as the visual communication. Norman \& Nielsen \citep{meyer-2016} defined a framework to determine tone-of-voice based on 4 dimension: funny vs. serious, formal vs. causal, respectful vs. irreverent, enthusiastic vs. matter-of-fact.
     
-    \begin{figure}
+    \begin{figure} [H]
     \centering
     \includegraphics[width=\textwidth]{figures/Tone-of-voice.png}
     \caption{This figure shows how the tone-of-voice was defined by understanding the mission, the values and conducting a tone analysis of the written copy}
@@ -95,19 +104,16 @@ To design a chatbot that conforms to the brand it represents, the brand image wa
     
     Figure \ref{fig:tov} shows how the tone-of-voice was determined by assessing the mission statement, the company's values inwards and outwards, and through a tone analysis. The tone analysis was conducted using the IBM tone analyser tool, the analyser assessed the written copy found on the brands website. Their tone-of-voice as reflected in their copy is more serious than funny, but not too serious as the tone is also a nice in-between of formal and casual. Their tone is very respectful, which follows their core values of tolerance and respectfulness. Lastly they are leaning towards more enthusiastic than matter-of-fact as they carry a very positive and joyful view of the future and their path to fulfil their goals.
 
-\vspace{5mm}
+\vspace{2,5mm}
 
 \subsection{Understanding User Needs}
     
 To meet the second component; to build a deep understanding of the users and their needs,  both primary and secondary research was gathered in order to understand the user group, trends, causes and statistics regarding healthy eating and food waste. 
   
-\vspace{2,5mm} %2,5mm vertical space
 
     \subsubsection{User Interviews}
         \label{userinterview}
     A series of interviews was conducted in order to understand the experiences of the users; how do they view their intake of fruit and vegetables, what obstacles and challenges do they face, how they assess their own habits, and their thoughts regarding food waste etc. Eight users were recruited to participate in these interviews, or four couples, in the ages of 29 to 36, four mothers and four fathers. All four couples had two children in kindergarten and/or early elementary school age. Six of the participants works full time, while one mother was on maternal leave as the interviews were conducted. Two participants, one male and one female, were part-time workers and/or students at the time of the interviews. The interview guides prepared were semi-structured and aimed at mapping the daily routines, views, habits, pains and frustrations of the users during an average week. In particular the interviews aimed to see how parents assess their own eating and activity habits, and whether they are aware of food waste occurring and if so why. The interview guide can be found in Appendix \ref{interviewguide}. 
-  
-\vspace{2,5mm} %2,5mm vertical space
 
     \subsubsection{User Personas and User Scenarios}
         \label{persscen}
@@ -120,7 +126,7 @@ To meet the second component; to build a deep understanding of the users and the
             \label{fig:scen}
         \end{figure}
     
-\vspace{2,5mm} %2,5mm vertical space
+\vspace{2,5mm}
 
     \subsection{The Chatbot Role}
     
@@ -155,17 +161,17 @@ To meet the second component; to build a deep understanding of the users and the
  
     The traits of the assistant will be reflected in the way the chatbot handles its job. Through AI and NLP capabilities, as well as connection to necessary APIs, will the chatbot be able to complete necessary tasks and incorporate “hidden/invisible” features that will help users achieve their goals. As for the motivator traits, this will be reflected in how it encourages/motivates users, the language its using, and its behaviour (prompts, affirmations, tips). Therefore the chatbot role will be reflected by its external traits (motivator) and its internal traits (assistant).
     
-\vspace{5mm}
-
+\vspace{2,5mm}
+    
     \subsection{Personality Trait Model}
     Once the brand mission, core values, understanding of user needs, and the chatbot role have been identified, designers should find an appropriate personality trait model to help put together a dynamic personality for the chatbot. It is important that this model will be used to place the desired personality within a framework, this is to benefit the designer when designing a consistent personality. 
     
     It is not the goal of this thesis to assess whether the designed personality is consistent with the chosen trait model, or to assess the personality of participants. The trait model is only used to guide the design of the chatbot personality, and to help in evaluating desirable traits for the specific chatbot agent. 
     
     The chosen personality model to model this chatbot's personality was the five factor model. As explained in section 2.3.2, this personality trait model is widely known, and based on lexical data used by humans to describe personalities. These traits have been mapped out and organised into the five factors, and as the traits are identified by the words we use to describe them, it will be an appropriate model for a linguistic interface such as a chatbot.
-    
-\vspace{5mm}
 
+\vspace{2,5mm}
+    
     \subsection{The Chatbot Personality Description}
     The final chatbot personality therefore were based on identified user needs and user personas, the brand image and tone of voice, and the identified role of the chatbot. This information was used to model the desirable traits and quirks of the chatbot personality, and the five factor model was used as reference to model the personality. The personality includes the traits shown in Figure \ref{fig:characteristics}. The role and character description is laid out in next two sections; both descriptions are based on the user research in regards to how the chatbot's tone and tasks are handled to support the needs and goals of both genders.
     
@@ -180,7 +186,7 @@ To meet the second component; to build a deep understanding of the users and the
     The chatbot has been given the name Bella. She works as a dinner planner, helping couples plan meals for the whole week. Her recipes helps couples eat a healthy and balanced diet focusing on increasing the consumption of fruits and vegetables. Bella is personalised to each specific family as she knows and learns over time what they prefer to eat, what they dislike, any known allergies they might have, and who makes up the whole family. Her mission is to increase their health, while also taking an environmental and economical approach to dinner planning; keeping track of what food they have at home, base recipes on ingredients that needs to be used up and providing users with shopping lists. It is important that Bella works to motivate users towards their goals, and does so in a supportive fashion. Her role as assistant makes sure that she is trustworthy, reliable and efficient.
     
     \subsubsection{Character description}
-    Bella is designed to act and look about the same age as her target audience, she is an assistant and motivator for both genders. Her personality is modelled to be that of a supportive friend, helping with cool new tricks as well as emotional support, by using a cheerful and playful tone. Bella is designed to be used in two ways; 1) throughout the day, to log meals, ask for help and tricks, 2) when in need of reminders, accessing shopping lists and recipes on the go. Therefore Bella acts efficiently and to the point, while also providing a helpful and supportive tone. She is cheerful, youthful, and fun-loving, while also being reliant, consistent, efficient and trusting. Bella is a team player, and works to support great collaboration between couples. 
+    Bella is designed to act and look about the same age as her target audience, and works to assist and motivate her users. Her personality is modelled to be that of a supportive friend, helping with cool new tricks as well as emotional support, by using a cheerful and playful tone. She is always happy to help and conducts herself to a high professional standard. She always acts respectful and polite, but likes to add humour to her interactions with users. Bella is designed to help her users throughout the day, by assisting with logging meals, provide help, tips and tricks, reminders, shopping lists and recipes on the go. She also offers words of encouragement and wants to support and motivate her users towards their goals. Therefore Bella acts efficiently and to the point, while also providing a helpful and supportive tone. She is cheerful, youthful, and fun-loving, while also being reliant, consistent, efficient and trusting. Bella is a team player, and works to support great collaboration between couples. 
 
 \vspace{5mm}
 
@@ -198,13 +204,12 @@ The conversation design began by forming different use cases, that were based on
     
 Training data for chatbots consists of variations of the user intention. This means as many versions of the same question or user input that describes the same goal. The training data is what builds the chatbots AI, and the more training data a chatbot has the more certain it becomes in predicting the right intent. If the chatbot is very well trained, it would be able to answer questions or input that has not been included in the training set, but describes the same intent.
 
-        
-\vspace{5mm}
+\vspace{2,5mm}
 
     \subsection{The Chatbot Avatar}
-    The literature review investigated how humans perceive the various types of conversational agents, and found that anthropomorphism can benefit how a personality is perceived, and that a consistent personality dictates which characteristics humans assign to a chatbot in which they anthropomorphise. The literature review also discussed humanness as it related to human capabilities and physical characteristics. The review found that chatbots with a high level of humanness increases trust and familiarity, while also providing a more natural interaction with humans. The latter is explained by that humans know how to interact with other humans, therefore will assume that a chatbot will interact like a human if it has a more human appearance. 
+    Chapter \ref{humanperception} provided background and research regarding how humans perceive the various types of conversational agents, and found that anthropomorphism can benefit how a personality is perceived, and that humanness can increase anthropomorphism. Humanness relates to human capabilities and physical characteristics, and chatbots with a high level of humanness increases trust and familiarity, while also providing a more natural interaction with humans. The latter is explained by that humans know how to interact with other humans, therefore will assume that a chatbot will interact like a human if it has a more human appearance. 
         
-    Because of this, the chatbot avatar will have a human appearance. This chatbot is taking on human tasks and is to be perceived as a human. However, research have found that too human might have a negative effect on human perception which is why the chatbot will be portrayed as an illustrated character rather than a realistic human, as can be seen in Figure \ref{fig:avatar}. This will make clear the distinction that the chatbot is not a human, while incorporating high levels of humanness simultaneously, which will contribute to increased anthropomorphism.
+    Because of this, the chatbot avatar will have a human appearance, to encourage natural human interaction. However, research have found that too human might have a negative effect on human perception. Therefore, the chatbot will be portrayed as an illustrated character rather than a realistic human, as can be seen in Figure \ref{fig:avatar}. This will make clear the distinction that the chatbot is not a human, while incorporating high levels of humanness simultaneously, which will contribute to increased anthropomorphism. The chatbot has been given a female gender. While aware of the research regarding stereotypes and unwanted attention towards female CAs (see section \ref{otherfactors}), the design process determined that the role of the chatbot and the personality befitted a female agent better for this specific scenario.
     
     \begin{figure}[H]
         \centering
@@ -335,6 +340,7 @@ Daring & & & & & \\
     \label{tab:datacolchar}
 \end{table}
 
+\vspace{2,5mm}
 
 \subsection{Experiment Part 2}
 
@@ -365,8 +371,6 @@ Part two of the experiment will be conducted to assess whether personality affec
 \subsubsection{Data Collection Experiment Part 2}
 To collect the necessary data to assess the stated hypotheses for the second part of the experiment, the AttrakDiff measuring tool will be used to assess the effect on the user experience. All participants will be subject to all conditions, and asked to evaluate each chatbot versions independently.
 
-    \vspace{5mm} %5mm vertical space
-   
     \subsubsection{AttrakDiff - operationalising the user experience}
     
     User experience is defined in ISO 9241 – 210 as "all the users' emotions beliefs, preferences, perceptions, physical and psychological responses, behaviours, and accomplishments that occur before, during and after use" \citep{ISO9241-210}. Usability is the most widely known definition to determine whether a product is good or bad, and therefore an important part to determine a great user experience. Usability is defined in ISO 9241-210 as the "extent to which a system, product or service can be used by specified users to achieve specified goals with effectiveness, efficiency and satisfaction in a specified context of use". Hassenzahl (2006) believes that this definition is too task oriented, focusing on task completion and reaching goals, simplicity and efficiency, and forgetting about the "fun". Satisfaction is therefore one of the components of usability in which professionals, researchers, and designers alike struggle to agree on a definition. Is it the satisfaction of efficiently completing a task, or the satisfaction of an overall enjoyable experience? The AttrakDiff measurement tool was built to assess exactly this, knowing that users might choose a product which is slightly less efficient but are extremely enjoyable to use. While some argue that something cannot be enjoyable unless it is efficient, we must not forget all the different ways in which the overall user experience is affected by a product that "stands out" from the rest. \cite{Hassenzahl2000} built the AttrakDiff measurement tool, which assesses the user experience by looking at usefulness and usability in the pragmatic quality, independently from the hedonic qualities of stimulation, challenge and motivation, and attractiveness. The AttrakDiff form assesses personal user rating of a products usability and design.
@@ -379,6 +383,8 @@ To collect the necessary data to assess the stated hypotheses for the second par
     The AttrakDiff measurement instrument consists of 28 seven-step items of opposite adjectives ordered into a scale of intensity \citep{attrakdiff2013}. The middle values of an item group creates a scale value for pragmatic quality (PQ), hedonic quality (HQ - include HQ-I and HQ-S) and attractiveness (ATT). HQ-I and HQ-S are the sub-qualities of stimulation and identity of hedonic quality. The theoretical model was created and tested by Hassenzahl et al. from 2000 through 2006 \citep{Hassenzahl2000, Hassenzahl2001}; and their studies have found that the hedonic and pragmatic qualities are perceived independently from each other and consistently, and contributes equally to the attractiveness rating. According to their website, Hassenzhal et al. (2000) found that the model separates four essential aspects: 1) the product quality intended by the designer, 2) the subjective perception and evaluation of quality, 3) the independent pragmatic and hedonic qualities, and 4) the behavioural and emotional consequences \citep{attrakdiff2013}.
     
     The AttrakDiff measurement tool was used to collect the appropriate data to assess and compare the two chatbot personalities against the user experience. The AttrakDiff evaluation will be used to assess the user experience of both chatbot prototypes. The pragmatic quality will asses usability and usefulness of the chatbot, while both hedonic and attractiveness qualities will be used to assess the satisfaction with each version.
+    
+\vspace{2,5mm}
     
     \subsection{Experiment Setup}
     
